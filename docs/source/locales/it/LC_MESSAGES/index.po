@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-03 17:57+0200\n"
+"POT-Creation-Date: 2020-05-04 00:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/index.rst:3 e55082951660441b8ef7913c2baad665
+#: ../../source/index.rst:3 3ab18ecd47604063a09fdf402e59c3d8
 msgid "Basic Usage"
-msgstr ""
+msgstr "Uso base"
 
-#: ../../../README.rst:3 348a458b0f9f462f8d8da65c775b8a39
+#: ../../../README.rst:3 c74231de4d0b4203af2145010fbfc0b7
 msgid "ODK Server Manager tool"
 msgstr ""
 
-#: ../../../README.rst:4 f1a0f31b25354be1b25309ec4f70aa74
+#: ../../../README.rst:4 fccbc032f8984159acb427e576df39ec
 msgid "An introduction to the tool goes here."
 msgstr "Una introduzione al tool va qui."
+
