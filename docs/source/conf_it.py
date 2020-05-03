@@ -55,7 +55,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 # Stuff regarding translations
-language = "en_US"
+language = "it_IT"
 locale_dirs = ['locales/']
 gettext_uuid = True
 gettext_compact = False
