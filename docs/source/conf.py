@@ -58,4 +58,3 @@ html_static_path = ['_static']
 locale_dirs = ['locales/']
 gettext_uuid = True
 gettext_compact = False
-

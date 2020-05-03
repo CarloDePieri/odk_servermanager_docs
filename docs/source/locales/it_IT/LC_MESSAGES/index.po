@@ -27,4 +27,4 @@ msgstr ""
 
 #: ../../../README.rst:4 f1a0f31b25354be1b25309ec4f70aa74
 msgid "An introduction to the tool goes here."
-msgstr "Una introduzione del tool va qui."
+msgstr "Una introduzione al tool va qui."
