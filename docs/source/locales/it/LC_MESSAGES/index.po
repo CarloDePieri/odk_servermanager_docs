@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 00:55+0200\n"
+"POT-Creation-Date: 2020-05-04 12:44+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,83 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/index.rst:3 3ab18ecd47604063a09fdf402e59c3d8
+#: ../../source/index.rst:3 e628237cc2ce4a60863e294f966a2a09
 msgid "Basic Usage"
-msgstr "Uso base"
+msgstr "Utilizzo Base"
 
-#: ../../../README.rst:3 c74231de4d0b4203af2145010fbfc0b7
+#: ../../source/index.rst:10 ce23c008923e4f218754959eec6391a1
+msgid "Advanced Usage"
+msgstr "Utilizzo Avanzato"
+
+#: ../../source/index.rst:18 17552edd5feb43a4a0826fcf5bfb7f6c
+msgid "Documentation"
+msgstr "Documentazione"
+
+#: ../../../README.rst:3 46853e37dffc453388ae6d0dd3ec142c
 msgid "ODK Server Manager tool"
 msgstr ""
 
-#: ../../../README.rst:4 fccbc032f8984159acb427e576df39ec
-msgid "An introduction to the tool goes here."
-msgstr "Una introduzione al tool va qui."
+#: ../../../README.rst:22 b966478a03834d1abfc9b129afa32f33
+msgid "Welcome!"
+msgstr "Benvenuto!"
+
+#: ../../../README.rst:29 ef2d2b2c33b84448bda16c842ab41739
+msgid ""
+"ODKSM_ is an open source python tool to quickly and easily create more "
+"than one Arma 3 server instance and manage their settings, mods and keys."
+" It does so by intelligently using symlinks, which keeps server "
+"instances' folders small, easy to update and archive."
+msgstr "ODKSM_ è un tool open source scritto in python che permette di creare facilmente multiple istanze di server "
+"di Arma 3, e di mantenere le impostazioni, i mod e le chiavi. Riesce a fare tutto questo utilizzando intelligentemente"
+"symlink, il che mantiene le cartelle delle istanze piccole, facilmente aggiornabili e archiviabili."
+
+#: ../../../README.rst:33 a5c473fa97694ee4bb4c078117f39f7f
+msgid ""
+"It mainly caters to dedicated server maintainers, but could surely come "
+"in handy for mission makers."
+msgstr "Il tool è pensato principalmente per chi gestisce server dedicati, ma potrebbe tornare utile anche a chi sviluppa"
+"missioni."
+
+#: ../../../README.rst:35 9b344af93f89455780d77380ee06f40e
+msgid "Main features:"
+msgstr "Caratteristiche principali:"
+
+#: ../../../README.rst:37 54358219431540d69db126108d89e85d
+msgid ""
+"Having separated server instances and mixing symlink with real "
+"configuration file result in a clean and organized Arma 3 main folder"
+msgstr "Mantenere le istanze separate e utilizzare sia symlink che file di configurazione reali permette di mantenere"
+"la cartella principale di Arma pulita e organizzata."
+
+#: ../../../README.rst:38 48f33dab199441708c0fe704914e49de
+msgid ""
+"**ONE** easy to understand and thoroughly documented configuration file "
+"to manage the whole instance"
+msgstr "**Un singolo** file di configurazione facile da interpretare e documentato a fondo per gestire l'intera istanza"
+
+#: ../../../README.rst:39 efbf5d2bf47e4f618d7f6258a8ad02f4
+msgid ""
+"Flexible .bat scripts to call the tool that can easily adapt to different"
+" folders structures"
+msgstr "Script .bat flessibili che richiamano il tool possono adattarsi facilmente a diverse strutture di cartelle"
+
+#: ../../../README.rst:40 2a84da3eef5346e2b22ddaf3b48a50b2
+msgid ""
+"Keep mods, keys and Arma configuration files updated by simply running "
+"the tool"
+msgstr "Semplicemente lanciare il tool mantiene aggiornati mods, chiavi e file di configurazione."
+
+#: ../../../README.rst:41 088d7e802f61447e9ae4597fa873af7c
+msgid "Quickstart tool to automate initial creation of multiple instances"
+msgstr "Un Quickstart tool permette di automatizzare le fasi iniziali di creazione di istanze multiple"
+
+#: ../../../README.rst:42 91d1afd063f748f0a6799f3aad143a80
+msgid ""
+"Modular architecture that allows to quickly implement mod specific "
+"behaviour"
+msgstr "Architettura modulare che permette di implementare velocemente comportamenti specifici per singoli mod"
+
+#: ../../../README.rst:43 04549ec44f0349a4b98370317cfe7ff2
+msgid "Configuration file templates support"
+msgstr "Supporto per template di file di configurazione"
 

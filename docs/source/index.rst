@@ -1,13 +1,27 @@
 .. include:: ../../README.rst
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Basic Usage
+    :maxdepth: 2
+    :caption: Basic Usage
 
-   installing
+    installation
+    usage
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Advanced Usage
 
+    quick_start
+    templates
+    modfix
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Documentation
+
+    config
+    bootstrap
+    modfix_doc
 
 
 

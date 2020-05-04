@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Carlo De Pieri
+# This file is distributed under the same license as the odksm_docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: odksm_docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-04 12:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../source/usage.rst:2 408544ed22ba4921b8084d107e767084
+msgid "Usage"
+msgstr ""
+
+#: ../../source/usage.rst:3 29cbcb349eff450aba9a005c14a06bf8
+msgid ""
+"Here you can find detailed instructions on how to create and maintain an "
+"ODKSM server instance."
+msgstr ""
+
+#: ../../source/usage.rst:5 7566d5e97b094a709b1bd74576c84ce6
+msgid ""
+"First of all you need to ensure the tool is correctly :doc:`installed "
+"<installation>`."
+msgstr ""
+
+#: ../../source/usage.rst:8 534d2b5c76974391af30760a25029ce9
+msgid "Create a server instance"
+msgstr ""
+
+#: ../../source/usage.rst:9 d67c245ccb0d49a692b31ec28369a5a5
+msgid ""
+"To create your first instance you will need to fill in a copy of the "
+"config file ``config.ini`` that can be found in the root directory of "
+"this tool."
+msgstr ""
+
+#: ../../source/usage.rst:12 1a91317cb55e48cd96a5e7abddd020fe
+msgid ""
+"We recommend to never modify files directly in the tool directory: it "
+"will be easier to update the tool. Prepare a custom instance folder and "
+"copy the ``config.ini`` file there, instead!"
+msgstr ""
+
+#: ../../source/usage.rst:15 08bce503ee5144859f3c58d22a2c6c28
+msgid ""
+"The default_ ``config.ini`` is thoroughly documented and you can find all"
+" supported fields descriptions :doc:`here as well <config>`."
+msgstr ""
+
+#: ../../source/usage.rst:17 cc45e4c139f6410bacfc605f3de90571
+msgid ""
+"Fields in the ``config`` and ``bat`` sections will be used to fill in "
+"templates for the ``serverConfig.cfg`` (the file that will be passed with"
+" the -config flag to the server) and ``run_server.bat`` (the bat that "
+"will be used to launch the instance)."
+msgstr ""
+
+#: ../../source/usage.rst:21 1a7698373fd543ffae9df88f39624c69
+msgid ""
+"Fields from the ``ODKSM`` section will be used directly by the tool to "
+"set paths, mods and keys, amongst other things."
+msgstr ""
+
+#: ../../source/usage.rst:23 df29215f8d7b4c04a432cd14234bfe91
+msgid ""
+"You can specify user mods as a list in the config with the "
+"``user_mods_list`` field or passing the path of a mods preset file "
+"created by the Arma 3 Launcher with the ``user_mods_preset`` field."
+msgstr ""
+
+#: ../../source/usage.rst:26 c00685fafd4a47408b43709a56733513
+msgid ""
+"Server side mods can be specified only as a list with the "
+"``server_mods_list`` field."
+msgstr ""
+
+#: ../../source/usage.rst:28 0da618d743d04a50a8ed7f7981b070be
+msgid ""
+"Once you are satisfied with your config file, you may simply drag&drop it"
+" on the `ODKSM.bat` to launch the tool."
+msgstr ""
+
+#: ../../source/usage.rst:30 87db095da4fc45a387788dfd58044d2a
+msgid "Alternatively, in the shell:"
+msgstr ""
+
+#: ../../source/usage.rst:36 c4ef259024db4471bbf8fac6bb26eb6a
+msgid ""
+"Once the instance folder has been created, to launch it simply run inside"
+" that folder:"
+msgstr ""
+
+#: ../../source/usage.rst:45 4a426b9cac4a485b8fa5cc62b8ee0aa6
+msgid "Managing a server instance"
+msgstr ""
+
+#: ../../source/usage.rst:46 76cf5812dda04d9f8ff322ce3a2ac028
+msgid ""
+"You can update a server instance if you want to change mission, mods or "
+"just a field somewhere. Simply edit your ``config.ini`` and relaunch "
+"``ODKSM.bat`` via drag&drop or console."
+msgstr ""
+
+#: ../../source/usage.rst:49 a05d60b4e9d048cf8fbff4fc1156c8ba
+msgid ""
+"This will re-link / re-copy mods, reset the keys folder and re-compile "
+"config files."
+msgstr ""
+
+#: ../../source/usage.rst:51 1b0baa9d050c42509e72a98615392f70
+msgid ""
+"When updating mods in the Arma 3 ``!Workshop`` folder the keys files will"
+" probably change. Sadly there's no way to magically link them in the "
+"instance, since the name of the file itself changes. This means that "
+"after updating the mods you probably will need to update your server "
+"instance with ODKSM to re-link keys files."
+msgstr ""
+
+#: ../../source/usage.rst:55 071088668f3141068d07b0b2c9bb725d
+msgid ""
+"Remember that if you edit **symlinked files** inside a generated instance"
+" folder you are really editing files inside the main Arma folder."
+msgstr ""
+
+#: ../../source/usage.rst:58 de9c30dcbca04319ae1cefb4eb5c7765
+msgid ""
+"Keep in mind that every **real file** inside the generated instance "
+"folder is re-compiled on update. This means that if you edit the "
+"generated ServerConfig.cfg directly you will lose those edits on update. "
+"If you want them to persist, use the main ``config.ini`` file or "
+":doc:`config templates <templates>`."
+msgstr ""
+
+#: ../../source/usage.rst:63 479790ac9ebf44248e911994c941c5ea
+msgid "Delete a server instance"
+msgstr ""
+
+#: ../../source/usage.rst:64 fb32ec43d5e740c1b06ba3cb542fd37b
+msgid ""
+"Everything inside a generated server instance folder are either symlinked"
+" or generated by the tool, so you can safely delete the whole folder if "
+"you don't need it anymore or if you need to start over."
+msgstr ""
+
+#: ../../source/usage.rst:68 225a31b0cf0d48699db08bc39682cdff
+msgid "More customization"
+msgstr ""
+
+#: ../../source/usage.rst:69 122a240b71b04fbfae62cc84eb70999e
+msgid ""
+"If you find yourself repeating some task specific to a certain addons or "
+"config edit, chances are that you may find useful tips in our "
+":doc:`Advanced Usage section <quick_start>`."
+msgstr ""
+
