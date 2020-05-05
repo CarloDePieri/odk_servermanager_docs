@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 12:44+0200\n"
+"POT-Creation-Date: 2020-05-05 10:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,46 +53,83 @@ msgid ""
 "may use git_ directly. Once installed, run:"
 msgstr ""
 
-#: ../../source/installation.rst:22 2d7bb5b7f2ba41dc9fa70350c003d859
-msgid "You can then keep it updated by running, in the ``odksm`` directory:"
-msgstr ""
-
-#: ../../source/installation.rst:29 5392ab14b5d84470a6b0adaa717dd675
-msgid ""
-"This will keep you on the stable ``master`` branch, while active "
-"development happens on ``testing``."
-msgstr ""
-
-#: ../../source/installation.rst:38 6387fa11387d498b869bf3db197acfba
+#: ../../source/installation.rst:28 6387fa11387d498b869bf3db197acfba
 msgid "Install"
 msgstr ""
 
-#: ../../source/installation.rst:39 273ff207a8e24f10a59a05f396da7883
+#: ../../source/installation.rst:29 273ff207a8e24f10a59a05f396da7883
 msgid ""
 "Usage of a `python virtual environment`_ is strongly encouraged: install "
 "pipenv and prepare the venv by issuing these commands inside the ODKSM "
 "root directory:"
 msgstr ""
 
-#: ../../source/installation.rst:47 0064ee9fd6f9484bb4bead119f1571bb
+#: ../../source/installation.rst:37 0064ee9fd6f9484bb4bead119f1571bb
 msgid ""
 "When the venv is ready, install ODKSM and its dependencies inside the "
 "venv with:"
 msgstr ""
 
-#: ../../source/installation.rst:56 619e71a166d74248b9cd15d031717029
+#: ../../source/installation.rst:46 e6e9a96aa10c4d278b388de5e986909c
+msgid "Update"
+msgstr ""
+
+#: ../../source/installation.rst:47 e4efb578ea814deaba55af349f9825e7
+msgid ""
+"If you used the zipped release, you will need to download the latest "
+"release and replace the content of the whole tool installation with the "
+"new one."
+msgstr ""
+
+#: ../../source/installation.rst:50 fdc56235938e4062858394afe70a1158
+msgid ""
+"Do not simply overwrite the folder. Delete the old one and replace it "
+"with the new one. This will make sure no old files are left lingering."
+msgstr ""
+
+#: ../../source/installation.rst:53 2d7bb5b7f2ba41dc9fa70350c003d859
+msgid ""
+"If you used git instead, you can keep the tool updated by running in its "
+"root directory:"
+msgstr ""
+
+#: ../../source/installation.rst:60 5392ab14b5d84470a6b0adaa717dd675
+msgid ""
+"This will keep you on the stable ``master`` branch, while active "
+"development happens on ``testing``."
+msgstr ""
+
+#: ../../source/installation.rst:62 28cd322a135747e39a3d4c443d73c3f5
+msgid ""
+"You will need to have a pristine tool installation to update it this way."
+" If you changed something there, backup any important changes, run ``git "
+"reset --hard HEAD`` to reset the tool to its original state, then update "
+"it!"
+msgstr ""
+
+#: ../../source/installation.rst:65 0ea7fc8bf04a4069ada47ac391c79c7e
+msgid ""
+"Remember that, independently from the update method, any ``ODKSM.bat`` or"
+" ``START.bat`` you copied around will need to be manually updated to the "
+"current version, if they have changed."
+msgstr ""
+
+#: ../../source/installation.rst:69 619e71a166d74248b9cd15d031717029
 msgid "Verify the installation"
 msgstr ""
 
-#: ../../source/installation.rst:57 2cf6ba93c6b34b91aa55d614b69428bc
+#: ../../source/installation.rst:70 2cf6ba93c6b34b91aa55d614b69428bc
 msgid ""
 "You can verify that ODKSM is working as intended and all dependencies are"
 " met by running its test suite with:"
 msgstr ""
 
-#: ../../source/installation.rst:63 db8adc5f28da4deab33b601fbbc8d012
+#: ../../source/installation.rst:76 db8adc5f28da4deab33b601fbbc8d012
 msgid ""
 "All tests should pass! You are now ready to :doc:`create your first "
 "Instance <usage>`."
 msgstr ""
+
+#~ msgid "You can then keep it updated by running, in the ``odksm`` directory:"
+#~ msgstr ""
 

@@ -31,6 +31,7 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autosectionlabel'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -58,3 +59,6 @@ html_static_path = ['_static']
 locale_dirs = ['locales/']
 gettext_uuid = True
 gettext_compact = False
+
+# Activate autosectionlabel plugin
+autosectionlabel_prefix_document = True

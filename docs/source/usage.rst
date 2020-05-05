@@ -6,11 +6,13 @@ First of all you need to ensure the tool is correctly :doc:`installed <installat
 
 Create a server instance
 ^^^^^^^^^^^^^^^^^^^^^^^^
-To create your first instance you will need to fill in a copy of the config file ``config.ini`` that can be found
+To create your first instance you will need to fill in the config file ``config.ini`` that can be found
 in the root directory of this tool.
 
-.. note:: We recommend to never modify files directly in the tool directory: it will be easier to update the tool. Prepare
-    a custom instance folder and copy the ``config.ini`` file there, instead!
+.. note:: We recommend to never modify files directly in the tool directory: it will be easier to update the tool.
+
+    Prepare a custom instance folder and copy the ``config.ini`` and ``ODKSM.bat`` files there, instead!
+    You then need to edit ``ODKSM.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to the tool root folder.
 
 The default_ ``config.ini`` is thoroughly documented and you can find all supported fields descriptions :doc:`here as well <config>`.
 
@@ -25,7 +27,7 @@ Fields from the ``ODKSM`` section will be used directly by the tool to set paths
 
     Server side mods can be specified only as a list with the ``server_mods_list`` field.
 
-Once you are satisfied with your config file, you may simply drag&drop it on the `ODKSM.bat` to launch the tool.
+Once you are satisfied with your config file, you may simply drag&drop it on the ``ODKSM.bat`` to launch the tool.
 
 Alternatively, in the shell:
 

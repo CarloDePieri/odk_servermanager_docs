@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 12:44+0200\n"
+"POT-Creation-Date: 2020-05-05 10:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,73 @@ msgstr ""
 msgid "bootstrap.ini"
 msgstr ""
 
-#: ../../source/bootstrap.rst:3 f2737a75e84948f088642f526285c898
-msgid "todo"
+#: ../../source/bootstrap.rst:4 247f719b3c174bf1a96be1912805fe75
+msgid "In here fields present in the ``bootstrap.ini`` are described."
 msgstr ""
 
+#: ../../source/bootstrap.rst:7 d59ea5d805cc415bbe8acf120093dca7
+msgid "bootstrap"
+msgstr ""
+
+#: ../../source/bootstrap.rst:14 5635203dce2a4514b2ae3a99dbce42c6
+msgid "instances_root"
+msgstr ""
+
+#: ../../source/bootstrap.rst 0d668e8895c54529af719351bbc9bf48
+#: 83ae8095033349988476b71810075edf
+msgid "required"
+msgstr ""
+
+#: ../../source/bootstrap.rst:10 ../../source/bootstrap.rst:17
+#: 6f4cfb4ae5754f8a9a7f448c631d5815 8bc4c3df7ce7427ea63903be4e9d3f4e
+msgid "yes"
+msgstr ""
+
+#: ../../source/bootstrap.rst b6443455a28d4997b8dc09d0a178a37f
+#: d793ee67b6854ac3a72c2dde737469b1
+msgid "type"
+msgstr ""
+
+#: ../../source/bootstrap.rst:11 ../../source/bootstrap.rst:18
+#: a6bebb15159e483ea3cfbdb701af8361 a9229ca85c474bbfaaec00c326b5365a
+msgid "string"
+msgstr ""
+
+#: ../../source/bootstrap.rst 7238a6ef148a4553b600b37b889de75e
+#: dcc0f7086bdf476cb028d8158726c56c
+msgid "default"
+msgstr ""
+
+#: ../../source/bootstrap.rst:12 ../../source/bootstrap.rst:19
+#: 6922720c6e094b61a2d1f93180ca7b2a bb1fe539a07c4fb39dc57fbe756a21bc
+msgid "``\"\"``"
+msgstr ""
+
+#: ../../source/bootstrap.rst:14 4cf9d52df05e40528ad7d937bf1fd899
+msgid ""
+"the absolute path to the folder in which the tool will create the new "
+"instance root folder"
+msgstr ""
+
+#: ../../source/bootstrap.rst:22 6eb06cc2704840b6b963ce0b54432365
+msgid "odksm_folder_path"
+msgstr ""
+
+#: ../../source/bootstrap.rst:21 653fd84f7bfd4b9b9d606d3c5b6d915b
+msgid "the absolute path to the folder containing the odksm run.py"
+msgstr ""
+
+#: ../../source/bootstrap.rst:25 5a13d14b362848559be9fac634293652
+msgid "config, bat, ODKSM, mod_fix_settings"
+msgstr ""
+
+#: ../../source/bootstrap.rst:27 8210a97952294af79b90c30c9582d8fb
+msgid ""
+"All values in these section will be the default one present in the "
+"``config.ini`` of a new instance. They are described in :doc:`the "
+"config.ini documentation<config>`"
+msgstr ""
+
+#: ../../source/bootstrap.rst:30 35504d6f2e20429c9bbee41e519d1a63
+msgid "Do not delete empty sections' titles from this file!"
+msgstr ""

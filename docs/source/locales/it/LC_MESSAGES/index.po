@@ -44,14 +44,14 @@ msgid ""
 " It does so by intelligently using symlinks, which keeps server "
 "instances' folders small, easy to update and archive."
 msgstr "ODKSM_ è un tool open source scritto in python che permette di creare facilmente multiple istanze di server "
-"di Arma 3, e di mantenere le impostazioni, i mod e le chiavi. Riesce a fare tutto questo utilizzando intelligentemente"
+"di Arma 3, e di mantenere le impostazioni, i mod e le chiavi. Riesce a fare tutto questo utilizzando intelligentemente "
 "symlink, il che mantiene le cartelle delle istanze piccole, facilmente aggiornabili e archiviabili."
 
 #: ../../../README.rst:33 a5c473fa97694ee4bb4c078117f39f7f
 msgid ""
 "It mainly caters to dedicated server maintainers, but could surely come "
 "in handy for mission makers."
-msgstr "Il tool è pensato principalmente per chi gestisce server dedicati, ma potrebbe tornare utile anche a chi sviluppa"
+msgstr "Il tool è pensato principalmente per chi gestisce server dedicati, ma potrebbe tornare utile anche a chi sviluppa "
 "missioni."
 
 #: ../../../README.rst:35 9b344af93f89455780d77380ee06f40e
@@ -62,7 +62,7 @@ msgstr "Caratteristiche principali:"
 msgid ""
 "Having separated server instances and mixing symlink with real "
 "configuration file result in a clean and organized Arma 3 main folder"
-msgstr "Mantenere le istanze separate e utilizzare sia symlink che file di configurazione reali permette di mantenere"
+msgstr "Mantenere le istanze separate e utilizzare sia symlink che file di configurazione reali permette di mantenere "
 "la cartella principale di Arma pulita e organizzata."
 
 #: ../../../README.rst:38 48f33dab199441708c0fe704914e49de

@@ -19,16 +19,6 @@ Once installed, run:
 
     $ git clone https://github.com/CarloDePieri/odk_servermanager.git odksm
 
-You can then keep it updated by running, in the ``odksm`` directory:
-
-.. code:: console
-
-    $ git fetch
-    $ git pull
-
-This will keep you on the stable ``master`` branch, while active development happens on ``testing``.
-
-
 .. _choco: https://chocolatey.org/packages/python/3.8.2
 .. _official package: https://www.python.org/ftp/python/3.8.2/python-3.8.2.exe
 .. _latest release: https://github.com/CarloDePieri/odk_servermanager/releases/latest
@@ -51,6 +41,29 @@ When the venv is ready, install ODKSM and its dependencies inside the venv with:
     $ pipenv install --dev
 
 .. _python virtual environment: https://docs.python.org/3/tutorial/venv.html
+
+Update
+^^^^^^
+If you used the zipped release, you will need to download the latest release and replace the content of the whole tool
+installation with the new one.
+
+.. note:: Do not simply overwrite the folder. Delete the old one and replace it with the new one. This will make sure no
+    old files are left lingering.
+
+If you used git instead, you can keep the tool updated by running in its root directory:
+
+.. code:: console
+
+    $ git fetch
+    $ git pull
+
+This will keep you on the stable ``master`` branch, while active development happens on ``testing``.
+
+.. note:: You will need to have a pristine tool installation to update it this way. If you changed something there, backup
+    any important changes, run ``git reset --hard HEAD`` to reset the tool to its original state, then update it!
+
+.. important:: Remember that, independently from the update method, any ``ODKSM.bat`` or ``START.bat`` you copied around will need to be manually updated to
+    the current version, if they have changed.
 
 Verify the installation
 ^^^^^^^^^^^^^^^^^^^^^^^

@@ -14,6 +14,7 @@
     quick_start
     templates
     modfix
+    debug
 
 .. toctree::
     :maxdepth: 2
