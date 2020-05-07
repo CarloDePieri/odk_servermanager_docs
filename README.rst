@@ -15,8 +15,10 @@ ODK Server Manager tool
     :target: https://github.com/CarloDePieri/odk_servermanager/blob/master/LICENSE
     :alt: License
 .. image:: https://img.shields.io/badge/os-Windows-blue
+    :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Supported os: Windows
 .. image:: https://img.shields.io/maintenance/yes/2020
+    :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Maintained!
 
 Welcome!

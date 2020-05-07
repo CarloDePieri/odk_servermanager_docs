@@ -12,12 +12,12 @@ and ``bootstrap.ini``, that you can find in the ODKSM root folder.
 
 You now need to edit ``bootstrap.ini`` and set the two fields in the ``[bootstrap]`` section:
 
-- ``instances_root``: the directory in which the instances will be saved
-- ``odksm_folder_path``: the root of ODKSM
+- :option:`instances_root <bootstrap instances_root>`: the directory in which the instances will be saved
+- :option:`odksm_folder_path <bootstrap odksm_folder_path>`: the root of ODKSM
 
 .. note:: You can optionally set additional fields in ``bootstrap.ini``: these will be set as default values in newly
     created instances' ``config.ini``, so it makes sense to set them here only if they are global value for your
-    server, like maybe ``arma_folder`` or ``password_admin``.
+    server, like maybe :option:`arma_folder <ODKSM arma_folder>` or :option:`password_admin <config password_admin>`.
 
 Finally, you need to edit ``START.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to your ODKSM root.
 

@@ -14,7 +14,8 @@ in the root directory of this tool.
     Prepare a custom instance folder and copy the ``config.ini`` and ``ODKSM.bat`` files there, instead!
     You then need to edit ``ODKSM.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to the tool root folder.
 
-The default_ ``config.ini`` is thoroughly documented and you can find all supported fields descriptions :doc:`here as well <config>`.
+The default_ ``config.ini`` is thoroughly documented and you can also find all supported fields descriptions in the
+:doc:`config.ini documentation <config>`.
 
 Fields in the ``config`` and ``bat`` sections will be used to fill in templates for the ``serverConfig.cfg`` (the file
 that will be passed with the -config flag to the server) and ``run_server.bat`` (the bat that will be used to launch
@@ -22,10 +23,11 @@ the instance).
 
 Fields from the ``ODKSM`` section will be used directly by the tool to set paths, mods and keys, amongst other things.
 
-.. note:: You can specify user mods as a list in the config with the ``user_mods_list`` field or passing the path of a
-    mods preset file created by the Arma 3 Launcher with the ``user_mods_preset`` field.
+.. note:: You can specify user mods as a list in the config with the :option:`user_mods_list <ODKSM user_mods_list>`
+    field or passing the path of a mods preset file created by the Arma 3 Launcher with the
+    :option:`user_mods_preset <ODKSM user_mods_preset>` field.
 
-    Server side mods can be specified only as a list with the ``server_mods_list`` field.
+    Server side mods can be specified only as a list with the :option:`server_mods_list <ODKSM server_mods_list>` field.
 
 Once you are satisfied with your config file, you may simply drag&drop it on the ``ODKSM.bat`` to launch the tool.
 
