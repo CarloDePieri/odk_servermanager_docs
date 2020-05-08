@@ -203,7 +203,7 @@ This section contains various settings required by the tool.
 mod_fix_settings section
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are settings required by specific ModFix module. Do note that if a module is enabled the relative settings MAY be
+These are settings required by specific ModFix modules. Do note that if a module is enabled the relative settings MAY be
 required. More specific information about single modfix can be found in the :doc:`modfix documentation <modfix_doc>`.
 
 .. program:: mod_fix_settings

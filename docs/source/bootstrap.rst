@@ -3,8 +3,8 @@ bootstrap.ini
 
 In here fields present in the ``bootstrap.ini`` configuration file are described.
 
-bootstrap
-~~~~~~~~~
+bootstrap section
+~~~~~~~~~~~~~~~~~
 This section contains settings used by the quick start tool.
 
 .. program:: bootstrap
@@ -25,8 +25,8 @@ This section contains settings used by the quick start tool.
     :type: string
     :default: ``""``
 
-config, bat, ODKSM, mod_fix_settings
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+config, bat, ODKSM, mod_fix_settings sections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All values in these section will be the default one present in the ``config.ini`` of a new instance. They are described
 in :doc:`the config.ini documentation<config>`.
