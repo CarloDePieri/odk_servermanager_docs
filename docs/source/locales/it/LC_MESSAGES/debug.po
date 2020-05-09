@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-05 10:23+0200\n"
+"POT-Creation-Date: 2020-05-09 20:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/debug.rst:2 2fdb341c089246a2bc3d21a812d2ea17
-msgid "Debug"
+#: ../../source/debug.rst:2 fd3868c7be95498ca04677ca10eb6493
+msgid "Troubleshooting"
 msgstr ""
 
-#: ../../source/debug.rst:3 059b6d09507642b887e6b088a8f9204b
-msgid "todo"
+#: ../../source/debug.rst:3 4f7d322504ee4c38a0333b8bd5b769f3
+msgid ""
+"In case something goes wrong, you will be warned by the console ui. The "
+"message there plus this documentation should be enough to correct "
+"eventual mistakes in your config."
 msgstr ""
+
+#: ../../source/debug.rst:6 a81bdf68fc544f5f9176ddd4b62bf2ae
+msgid ""
+"The tool *should* be able to tell you if your server instance is "
+"compromised by the error but, if the an error that shouldn't be there "
+"keep reappearing, you may try to delete the instance folder and "
+"regenerate with the tool just in case!"
+msgstr ""
+
+#: ../../source/debug.rst:9 7e1b36a7cee64bec906c38bf7473ea50
+msgid ""
+"In case you need more detailed information, you have the option to "
+"activate the debug mode of the tool, uncommenting this line in your "
+"instance's ``ODKSM.bat`` script:"
+msgstr ""
+
+#: ../../source/debug.rst:16 f60ef35b79fa40f8a618ad91fcc1dab2
+msgid ""
+"The tool will now produce log files containing the stack trace, which you"
+" can use to further debug the malfunction. If you can't fix your problem "
+"this way, be sure to open `an issue`_ on our tracker!"
+msgstr ""
+
+#: ../../source/debug.rst:19 59eb666f153447d6ac886c777c54362d
+msgid ""
+"Be specific in the issue report about what you were doing and maybe paste"
+" along the error stack trace."
+msgstr ""
+
+#~ msgid "Debug"
+#~ msgstr ""
+
+#~ msgid "todo"
+#~ msgstr ""
 

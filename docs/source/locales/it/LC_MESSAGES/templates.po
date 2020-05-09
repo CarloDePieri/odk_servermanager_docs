@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 12:44+0200\n"
+"POT-Creation-Date: 2020-05-09 20:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/templates.rst:2 ec4fbca2977a484dabffc51afe395161
-msgid "Templates"
+#: ../../source/templates.rst:2 234daa5ebdbe4d4f85d47ebc5e3443e9
+msgid "Files Templates"
 msgstr ""
 
-#: ../../source/templates.rst:3 a2f345e286394060b8359f7ae9a26a13
-msgid "todo"
+#: ../../source/templates.rst:4 eeaec1d0450e4494892ae1768154c161
+msgid ""
+"ODKSM compiles the Arma config file and the server startup script "
+"starting from templates that can be found in "
+"``odk_servermanager\\templates``."
 msgstr ""
+
+#: ../../source/templates.rst:7 bc3edf27a3354f5585628cfe056719d1
+msgid ""
+"These files nicely cover OUR use case but at some point you will probably"
+" need different parameters and generally more control over the configs."
+msgstr ""
+
+#: ../../source/templates.rst:11 1baa878495db497fb2370efab55a67b1
+msgid "Custom templates"
+msgstr ""
+
+#: ../../source/templates.rst:12 efb05882d04d4c08b06c9a34c5f1e493
+msgid ""
+"To enable the use of a custom template you need to make a copy of the "
+"template file and fill in a field in your server instance ``config.ini``."
+msgstr ""
+
+#: ../../source/templates.rst:16 33e73f540a8748698314263ce0894f8b
+msgid "ServerConfig.cfg"
+msgstr ""
+
+#: ../../source/templates.rst:16 9fc4e047078246c583f433b4e95eb4f2
+msgid ""
+"Make a copy of ``server_cfg_template.txt``. Fill in the field "
+":option:`config_template <config config_template>`."
+msgstr ""
+
+#: ../../source/templates.rst:19 56620995a1f149bda67814b28d059551
+msgid "run_server.bat"
+msgstr ""
+
+#: ../../source/templates.rst:19 f3eb0d39ee594f74ac6a1a1ae6762dbf
+msgid ""
+"Make a copy of ``run_server_template.txt``. Fill in the fields "
+":option:`bat_template <bat bat_template>`."
+msgstr ""
+
+#: ../../source/templates.rst:21 9aa74e9949b44747b7c0e18378cfeabb
+msgid ""
+"Do not edit templates file directly in the tool folder! Make a copy and "
+"link that in your ``config.ini``."
+msgstr ""
+
+#: ../../source/templates.rst:23 a75de2d61ed0436da57c2d590c811fc3
+msgid ""
+"Your new templates files are now going to be used by the tool. Every edit"
+" you do there will be carried over the generated files when creating or "
+"updating your server instance."
+msgstr ""
+
+#: ../../source/templates.rst:26 511146a00b414ea69f5e5ddefa61f6b8
+msgid ""
+"You can modify these templates to your heart's content but do not delete "
+"statement like ``{{ hostname }}`` or ``{{ password }}``. These token are "
+"used by the template framework to fill in fields values set in the "
+"``config.ini`` and they are required. You can move them around though."
+msgstr ""
+
+#: ../../source/templates.rst:31 23dabd8bba454c9d99b7fa4a8846ae7f
+msgid "Custom template fields"
+msgstr ""
+
+#: ../../source/templates.rst:32 6410461cce38428abb9d663a36e499a1
+msgid ""
+"It's possible to fill in custom templates directly from the "
+"``config.ini`` file."
+msgstr ""
+
+#: ../../source/templates.rst:34 99bd36f5882747749b288eb0d0f09eb1
+msgid ""
+"Suppose you needed to change the ``maxPlayers`` Arma config file field. "
+"Sure, you can change it directly in the template. But you can leverage "
+"the template framework and edit the template file with a line like this:"
+msgstr ""
+
+#: ../../source/templates.rst:41 957ebb1535f94099b45e2f8bbd809077
+msgid ""
+"Now you need to add a new field with the same name in your "
+"``config.ini``, right in the ``[config]`` section. Like this:"
+msgstr ""
+
+#: ../../source/templates.rst:48 370dc5268deb43b09e966b0a3879d202
+msgid ""
+"When the tool is run, the value of the ``max_players`` field in the "
+"``config.ini`` will replace the whole ``{{ max_players }}`` in your "
+"template file like this:"
+msgstr ""
+
+#~ msgid "Templates"
+#~ msgstr ""
+
+#~ msgid "todo"
+#~ msgstr ""
 

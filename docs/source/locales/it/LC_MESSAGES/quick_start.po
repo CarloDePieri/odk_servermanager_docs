@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-05 10:23+0200\n"
+"POT-Creation-Date: 2020-05-09 20:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,80 +17,85 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/quick_start.rst:2 b662a82fb6184779a2ef9e13d6ce4328
+#: ../../source/quick_start.rst:2 06dc9178bcb841a6aabe9dc60a88e69b
 msgid "Quick Start Tool"
 msgstr ""
 
-#: ../../source/quick_start.rst:3 9b9e6ddbfa4f45dfbba8d485a15d01b3
+#: ../../source/quick_start.rst:3 30b9d11ecbdb48e9a7a6b04ba6f72b2a
 msgid ""
 "If you are constantly creating new server instances, this tool may "
 "definitely make you life easier. Its aim is to automate all actions taken"
 " at the very beginning of a new server instance creation."
 msgstr ""
 
-#: ../../source/quick_start.rst:6 f188473c53d44d398a41b28e19bab191
+#: ../../source/quick_start.rst:6 4bc98503ccba4e58b4787aa1d2430053
 msgid ""
 "First of all, make sure that ODKSM is installed and that you know how to "
 "configure a new instance."
 msgstr ""
 
-#: ../../source/quick_start.rst:9 5271dd4e24c94f7b8d5349a2b18c7346
+#: ../../source/quick_start.rst:9 ba875977526b468f83eb873f4bd4e3a6
 msgid "Setup"
 msgstr ""
 
-#: ../../source/quick_start.rst:10 b94ebfb06bc545f6b10dd2288c499a3e
+#: ../../source/quick_start.rst:10 7f53480b83b346188650c19572d9a406
 msgid ""
 "Begin with choosing a folder that will be the root of all your server "
 "instances. Copy there both ``START.bat`` and ``bootstrap.ini``, that you "
 "can find in the ODKSM root folder."
 msgstr ""
 
-#: ../../source/quick_start.rst:13 d5dfde5ac27e46b8bda590032ea087c7
+#: ../../source/quick_start.rst:13 a9e63592bdbb492aa3637a695783c390
 msgid ""
 "You now need to edit ``bootstrap.ini`` and set the two fields in the "
 "``[bootstrap]`` section:"
 msgstr ""
 
-#: ../../source/quick_start.rst:15 88820a3f66824645a11f306ddf2711da
-msgid "``instances_root``: the directory in which the instances will be saved"
+#: ../../source/quick_start.rst:15 d36e0d87b5574d13bbecc7190bbdec0a
+msgid ""
+":option:`instances_root <bootstrap instances_root>`: the directory in "
+"which the instances will be saved"
 msgstr ""
 
-#: ../../source/quick_start.rst:16 d79ecef8d1594dcea703a6f40333ce22
-msgid "``odksm_folder_path``: the root of ODKSM"
+#: ../../source/quick_start.rst:16 59454ff67ee5439d921af77a02bb46a8
+msgid ""
+":option:`odksm_folder_path <bootstrap odksm_folder_path>`: the root of "
+"ODKSM"
 msgstr ""
 
-#: ../../source/quick_start.rst:18 f72ed621facb49ec893d28f2b5eff087
+#: ../../source/quick_start.rst:18 0cb889a5685b4d0da98fecff1669eeea
 msgid ""
 "You can optionally set additional fields in ``bootstrap.ini``: these will"
 " be set as default values in newly created instances' ``config.ini``, so "
 "it makes sense to set them here only if they are global value for your "
-"server, like maybe ``arma_folder`` or ``password_admin``."
+"server, like maybe :option:`arma_folder <ODKSM arma_folder>` or "
+":option:`password_admin <config password_admin>`."
 msgstr ""
 
-#: ../../source/quick_start.rst:22 38b54dd5a0fc416d92cf40949ac1d1df
+#: ../../source/quick_start.rst:22 9330cd00aec9458888879a5bdf8a5e54
 msgid ""
 "Finally, you need to edit ``START.bat`` and set the variable "
 "``ODKSM_FOLDER_PATH`` to your ODKSM root."
 msgstr ""
 
-#: ../../source/quick_start.rst:24 04778e91917245e0bb92cfb01d651059
+#: ../../source/quick_start.rst:24 575d36f5f5ab4c92a2955aec2775d716
 msgid ""
 "If you intend to keep the ``bootstrap.ini`` somewhere else than in the "
 "folder of ``START.bat`` you need to edit the latter and set the variable "
 "``DEFAULT_CONFIG`` to the path of your ``bootstrap.ini``."
 msgstr ""
 
-#: ../../source/quick_start.rst:28 89a4062d6df749e697a3f052231d76ca
+#: ../../source/quick_start.rst:28 d4e0de1514ed4e74989ca0b6cef84611
 msgid "Usage"
 msgstr ""
 
-#: ../../source/quick_start.rst:29 3d741b7651ec489e80758a5dc7ce1237
+#: ../../source/quick_start.rst:29 8f5baa90547448efaa13569cead8c7e9
 msgid ""
 "Simply launch the ``START.bat`` script. A console ui will ask for the "
 "instance name and whether to include :doc:`templates <templates>`."
 msgstr ""
 
-#: ../../source/quick_start.rst:32 b7423a67dd6c48cb8dd5681926f3165e
+#: ../../source/quick_start.rst:32 cb17f2d2e8c646ffba6c570da655be9a
 msgid ""
 "You are **not** done! The tool just created a new folder, where it put "
 "everything needed to start configuring the server instance as explained "
@@ -98,5 +103,22 @@ msgid ""
 msgstr ""
 
 #~ msgid "todo"
+#~ msgstr ""
+
+#~ msgid "``instances_root``: the directory in which the instances will be saved"
+#~ msgstr ""
+
+#~ msgid "``odksm_folder_path``: the root of ODKSM"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can optionally set additional fields"
+#~ " in ``bootstrap.ini``: these will be "
+#~ "set as default values in newly "
+#~ "created instances' ``config.ini``, so it "
+#~ "makes sense to set them here only"
+#~ " if they are global value for "
+#~ "your server, like maybe ``arma_folder`` "
+#~ "or ``password_admin``."
 #~ msgstr ""
 

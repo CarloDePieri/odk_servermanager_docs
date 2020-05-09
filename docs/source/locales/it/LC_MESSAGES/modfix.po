@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-04 12:44+0200\n"
+"POT-Creation-Date: 2020-05-09 20:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,273 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/modfix.rst:2 1241194b97994a5b86192324ad06e41e
-msgid "Modfix"
+#: ../../source/modfix.rst:2 b9a76350bb614b2db9c0f6e8752ae988
+msgid "Mod Specific Behavior"
 msgstr ""
 
-#: ../../source/modfix.rst:3 7fe20781afa745809272f2ae712afedd
-msgid "todo"
+#: ../../source/modfix.rst:4 046a09baf80f4fd0a1502c5c3a994007
+msgid ""
+"ODKSM modular architecture makes it easy to implement mod specific "
+"behaviour, like paste your custom configuration file in the right folder "
+"after a mod has been installed or fetch a unusually placed mod's key. "
+"This is done through ModFixes, plug&play python modules."
 msgstr ""
+
+#: ../../source/modfix.rst:9 c64ca2f563cb41c4a60d9afafb039d87
+msgid "Usage"
+msgstr ""
+
+#: ../../source/modfix.rst:10 cd8d3e308bce4fcd9b8c61c9ec26fd3b
+msgid ""
+"Enabling a ModFix is easy enough: you just need to put its name in the "
+"list value of :option:`enabled_fixes <mod_fix_settings enabled_fixes>`."
+msgstr ""
+
+#: ../../source/modfix.rst:13 e27aa1ecf6d04fa89e2089ef5fe8ce88
+msgid ""
+"The *name* of a ModFix is the name of its file (without the ``.py`` "
+"extension), which can be found inside the ``odk_servermanager\\modfix`` "
+"folder (here it is, on github_)."
+msgstr ""
+
+#: ../../source/modfix.rst:16 3c15352a549749bb9bf5fd7214cbaa19
+msgid ""
+"At this point, depending on the modfix, you may need to add additional "
+"fields and relative values to the ``mod_fix_settings``."
+msgstr ""
+
+#: ../../source/modfix.rst:22 56d1af7376724d9386f1c20a8f9be71d
+msgid "Linked vs copied"
+msgstr ""
+
+#: ../../source/modfix.rst:23 41c7857852424197bfca7fa51d48a2d4
+msgid "Take a moment to notice the difference between linked and copied mods."
+msgstr ""
+
+#: ../../source/modfix.rst:25 c585d580085e431ca82ef1ce8ab65db5
+msgid ""
+"Usually, mods without a modfix get simply linked inside the "
+":option:`linked_mod_folder_name <ODKSM linked_mod_folder_name>` folder. "
+"Folders inside this linked mod folder are *symlink*, which means that "
+"files inside those folders are the original mods files: these files are "
+"managed directly by Steam and should never be touched by you or a modfix."
+" This is the same behavior of ``!Workshop``, inside the main Arma 3 "
+"installation folder."
+msgstr ""
+
+#: ../../source/modfix.rst:30 8e9ab8c3f1f7462582dc50540bb1db5b
+msgid ""
+"When a change is needed inside a mod's folder, the modfix should **copy**"
+" the mod's files inside the :option:`copied_mod_folder_name <ODKSM "
+"copied_mod_folder_name>` folder. Files inside this folders are safe to "
+"edit and server instance specific."
+msgstr ""
+
+#: ../../source/modfix.rst:34 07f73010d3f54f7682e78feaf3f10245
+msgid ""
+"You can force this behavior putting a mod's name inside the "
+":option:`mods_to_be_copied <ODKSM mods_to_be_copied>`."
+msgstr ""
+
+#: ../../source/modfix.rst:36 7b44d9c9746844a1a578b7d5109ebbdc
+msgid ""
+"When copying mods, the modfix should also take care of updating said "
+"mod's copy inside an instance when needed. Depending on the specific mod "
+"structure and/or on the ModFix the tool behavior when updating a copied "
+"mod could change. Be sure to backup any important file you changed inside"
+" the copied mod folder before updating its instance the first time, just "
+"in case."
+msgstr ""
+
+#: ../../source/modfix.rst:42 80a4a6a20dec4ed2867d510427ab11f2
+msgid "Implement your own ModFix"
+msgstr ""
+
+#: ../../source/modfix.rst:43 47dc68979599468d94f349a5f22f3b03
+msgid ""
+"It's relatively easy to implement your own ModFix. You can find some "
+"example inside the modfix folder."
+msgstr ""
+
+#: ../../source/modfix.rst:45 43be394c03ee4d64aafec36be5721d31
+msgid ""
+"First of all create a new python file inside the "
+"``odk_servermanager\\modfix`` folder. The file name will be the name of "
+"the ModFix you need to add to the :option:`enabled_fixes "
+"<mod_fix_settings enabled_fixes>`. For example: ``my_modfix.py``."
+msgstr ""
+
+#: ../../source/modfix.rst:49 4c5127d89db84ff799f3869dda72031f
+msgid ""
+"Inside that file, extend the ``odk_servermanager.modfix.modfix.ModFix`` "
+"class. For example:"
+msgstr ""
+
+#: ../../source/modfix.rst:58 6053aebca3354c609d4d74d25757cd2b
+msgid ""
+"The ``name`` class field is required: by default the modfix will use that"
+" field to check if a modfix is to be applied to a specific mod. In this "
+"case, if the mod called ``my_mod`` is to be loaded (and the ``my_modfix``"
+" is enabled!) this ModFix will be triggered. If you want to modify the "
+"mechanism used to pair ModFix to mod, you may override the "
+"``ModFix.does_apply_to_mod()`` method to do so. You may also need to "
+"override ``ModFix.update_mods_to_be_copied_list()`` which takes care of "
+"automatically adding mods name to the :option:`mods_to_be_copied <ODKSM "
+"mods_to_be_copied>` list when needed."
+msgstr ""
+
+#: ../../source/modfix.rst:65 3f9bc579cbc7411898bf6c1aff45133f
+msgid ""
+"In your ModFix module namespace (after and outside your newly created "
+"class) save an object of your ModFix in a variable called "
+"``to_be_registered``:"
+msgstr ""
+
+#: ../../source/modfix.rst:72 462c00f902b24e42ab1e98ce12abe589
+msgid "This is required to the ModFix loading mechanism."
+msgstr ""
+
+#: ../../source/modfix.rst:74 c4d5712de3ab47c685e10dfb1785e8a8
+msgid ""
+"Your ModFix will load now but is currently doing nothing. Enter **ModFix "
+"hooks**. These are ModFix methods that your class inherited and that by "
+"default are set to ``None``. Override the hook (or hooks!) that best "
+"cover your needs and implement there your mod specific behavior. More "
+"information on hooks can be found in the next section."
+msgstr ""
+
+#: ../../source/modfix.rst:78 ce2796d874fc4a34a4d0985058131ca7
+msgid ""
+"Remember that you need to implement behaviors both for the instance "
+"*init* and *update* *stages*. More on this later!"
+msgstr ""
+
+#: ../../source/modfix.rst:81 25e42a953cde48b8b87d314eeedb37f9
+msgid ""
+"It's a good idea to implement a proper test suite for your ModFix. Tests "
+"goes into the ``tests\\modfixes`` folder, where you can also find several"
+" test examples."
+msgstr ""
+
+#: ../../source/modfix.rst:85 55025efeed414e0c98e2d12b76b392d3
+msgid "ModFixes' Hooks"
+msgstr ""
+
+#: ../../source/modfix.rst:86 c487df041c404120941559e8b0637e88
+msgid "Here an example of a hook:"
+msgstr ""
+
+#: ../../source/modfix.rst:94 8f3ed2dc529d46e38c5e3ea9c02b92b6
+msgid "Let's start by going over its arguments:"
+msgstr ""
+
+#: ../../source/modfix.rst:100 d42a844b96e642f89ce423e8963d0d3c
+msgid "server_instance: ServerInstance"
+msgstr ""
+
+#: ../../source/modfix.rst:97 ff0151e75b934d5f8cab6ba3e5b3416f
+msgid ""
+"This is the object representing the current server instance. It's an "
+"instance of the ``odk_servermanager.instance.ServerInstance`` class. You "
+"can use this to modify or to obtain information about the current server "
+"instance. Of particular interest is the ``server_instance.S`` object, "
+"which is a ``odk_servermanager.settings.ServerInstanceSettings`` "
+"instance, containing all settings currently valid for this server "
+"instance."
+msgstr ""
+
+#: ../../source/modfix.rst:103 68a527e088c64931bc327ed51771f12d
+msgid "call_data: List[str]"
+msgstr ""
+
+#: ../../source/modfix.rst:103 6c3f4321b51046329304514eb994e41b
+msgid ""
+"This is seldomly needed. It's a list containing, in order, the current "
+"*stage*, the current *operation*, and the Mod name."
+msgstr ""
+
+#: ../../source/modfix.rst:105 785fc40fc57d4784bc4d04c2b6626c6b
+msgid ""
+"There are currently 12 hooks you can override. Their name is a "
+"combination of three elements:"
+msgstr ""
+
+#: ../../source/modfix.rst:110 096f068856b4418cbeaf87a151de3010
+msgid "hook_[stage]_[operation]_[time]"
+msgstr ""
+
+#: ../../source/modfix.rst 423d8e9b720949cda21b74273a174c72
+msgid "stage"
+msgstr ""
+
+#: ../../source/modfix.rst:108 0008c8eb0a06409b86ae3081aacc56fe
+msgid "init, update"
+msgstr ""
+
+#: ../../source/modfix.rst 9626b54db15c462e96c51048ce4568e2
+msgid "operation"
+msgstr ""
+
+#: ../../source/modfix.rst:109 7e8662258b22424991a6cbdcd0fbeb28
+msgid "copy, link"
+msgstr ""
+
+#: ../../source/modfix.rst 7d14563c04cd4676a2b1acceef2f01ba
+msgid "time"
+msgstr ""
+
+#: ../../source/modfix.rst:110 3e897f9c112f478ea85eb29b3a020ac8
+msgid "pre, post, replace"
+msgstr ""
+
+#: ../../source/modfix.rst:114 4c3a507a68e34d98bd00f0e92fb5de50
+msgid ""
+"All hooks in this *stage* get triggered when first creating the server "
+"instance."
+msgstr ""
+
+#: ../../source/modfix.rst:118 be5c688ef1294d84ae808f1ca723ec46
+msgid ""
+"All hooks in this *stage* get triggered when the server instance folder "
+"is already present and the tool is activated."
+msgstr ""
+
+#: ../../source/modfix.rst:122 ecefb738d6c44401a10872a7c8d8de32
+msgid "These hooks activate when the mod is copied."
+msgstr ""
+
+#: ../../source/modfix.rst:126 86059e35d364443e9557e2283e4bb4b2
+msgid "These hooks activate when the mod is symlinked."
+msgstr ""
+
+#: ../../source/modfix.rst:130 6113b8c63fcb431abea2258f3a6985c4
+msgid ""
+"These hooks activate before its designed *operation*. The default "
+"*operation* still takes place."
+msgstr ""
+
+#: ../../source/modfix.rst:134 c4132f1cede3445d8f0050d07fb8ea5e
+msgid ""
+"These hooks activate after its designed *operation*. The default "
+"*operation* still takes place."
+msgstr ""
+
+#: ../../source/modfix.rst:138 45cf6193f6064233987a96aa96e8818c
+msgid ""
+"These hooks replace the default *operation*. Pre and Post hooks can still"
+" be called around these hooks."
+msgstr ""
+
+#: ../../source/modfix.rst:140 e00b94ce176a44c3a2963b8527384330
+msgid ""
+"If you need a replace hook to do nothing (for example to prevent a copy "
+"update) you still need to override the hook ``hook_update_copy_replace``."
+" Just have it do nothing with a ``pass`` instruction like this:"
+msgstr ""
+
+#~ msgid "Modfix"
+#~ msgstr ""
+
+#~ msgid "todo"
+#~ msgstr ""
 
