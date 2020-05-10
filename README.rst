@@ -39,7 +39,7 @@ Main features:
 * Having separated server instances and mixing symlink with real configuration file result in a clean and organized Arma 3 main folder
 * **ONE** easy to understand and thoroughly documented configuration file to manage the whole instance
 * Flexible .bat scripts to call the tool that can easily adapt to different folders structures
-* Keep mods, keys and Arma configuration files updated by simply running the tool
+* Simply running the tool is enough to keep mods, keys and Arma configuration files updated
 * Quickstart tool to automate initial creation of multiple instances
 * Modular architecture that allows to quickly implement mod specific behaviour
 * Configuration file templates support
