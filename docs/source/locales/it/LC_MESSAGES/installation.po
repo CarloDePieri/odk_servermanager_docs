@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-05 10:23+0200\n"
+"POT-Creation-Date: 2020-05-10 12:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,141 +16,152 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/installation.rst:2 a6ca4b94772c4480b925579691adad06
+#: ../../source/installation.rst:2 2340765e65e8454cbcacf8787f24d2dc
 msgid "Installation"
 msgstr "Installazione"
 
-#: ../../source/installation.rst:4 aafd639afbdf4cf3abbbc902cf987d59
+#: ../../source/installation.rst:4 0c82f3ca84a54299b1b7f69300ffe753
 msgid "Prerequisites"
 msgstr "Prerequisiti"
 
-#: ../../source/installation.rst:5 59154555783b43249b1e8dcb6291bcc4
+#: ../../source/installation.rst:5 a8d02868cc17416f98b29da7370f223f
 msgid ""
 "The tool is currently compatible with Windows only (linux support is on "
 "its way)."
 msgstr ""
-"Il tool è attualmente compatibile soltanto con Windows (stiamo lavorando al supporto"
-"per Linux)."
+"Il tool è attualmente compatibile soltanto con Windows (stiamo lavorando "
+"al supporto per Linux)."
 
-#: ../../source/installation.rst:7 b4a20edabb53472aa658940d51bdac94
+#: ../../source/installation.rst:7 da06f5a100954ac5b4631dfd8b5f9f52
 msgid ""
-"You will need Python 3.8 installed on your machine. You can install it "
-"via choco_ or via the `official package`_."
+"The main requirement is Python 3.8 which can be installed via choco_ or "
+"the `official package`_."
 msgstr ""
-"Come prima cosa installa Python 3.8. Puoi farlo via choco_ oppure tramite "
-"il `pacchetto ufficiale`_."
+"La dipendenza principale è Python 3.8, che può essere installato tramite "
+"choco_ oppure tramite il `pacchetto ufficiale`_."
 
-#: ../../source/installation.rst:11 327a55a5039649b6a18c9d5f1362cf57
+#: ../../source/installation.rst:10 1c6b06655444425aa5256af746f01c9b
 msgid "Download"
 msgstr ""
 
-#: ../../source/installation.rst:12 ef6a7ee3a5ca4e588276f331436e3fa1
+#: ../../source/installation.rst:11 323b4e0262d64193a117d382b8676c40
 msgid ""
-"The quickest way to get this tool is to download the `latest release`_ "
-"from github. Simply download the zip and extract it."
+"The quickest way to get the tool is to download the `latest release`_ "
+"from github and extract the zipped file."
 msgstr ""
 "Il modo più veloce per ottenere il tool è scaricare `l'ultima release`_ "
-"da Github. Scarica lo zip ed estrailo."
+"da Github ed estrarre i file compressi."
 
-#: ../../source/installation.rst:15 a28d5973c0864f269e8d30f1c941721d
+#: ../../source/installation.rst:13 36efa235390045bcac615c5365b13b42
 msgid ""
-"Alternatively, if you prefer to more easily keep the tool updated, you "
-"may use git_ directly. Once installed, run:"
+"Alternatively, git_ can be used directly. This solution permits to more "
+"easily keep the tool updated. Once git is installed, run:"
 msgstr ""
-"In alternativa, se preferisci poter mantenere il tool aggiornato più semplicemente, puoi"
-"usare direttamente git_. Una volta installato, esegui:"
+"In alternativa, git_ può essere utilizzato direttamente. Questa soluzione"
+" permette di mantenere il tool aggiornato con più facilità. Una volta "
+"installato git, eseguire:"
 
-#: ../../source/installation.rst:28 6387fa11387d498b869bf3db197acfba
+#: ../../source/installation.rst:26 24fd5bbc238b4abfb709009520dfa47f
 msgid "Install"
 msgstr "Installazione"
 
-#: ../../source/installation.rst:29 273ff207a8e24f10a59a05f396da7883
+#: ../../source/installation.rst:27 9b125e74858b44489c71d6481288cbe0
 msgid ""
 "Usage of a `python virtual environment`_ is strongly encouraged: install "
 "pipenv and prepare the venv by issuing these commands inside the ODKSM "
 "root directory:"
 msgstr ""
-"L'utilizzo di un `virtual environment python`_ è fortemente consigliato: installa "
-"pipenv e prepara il venv dando questi comandi dentro la root directory di ODKSM:"
+"L'utilizzo di un `virtual environment python`_ è fortemente consigliato: "
+"installare pipenv e preparare il venv dando questi comandi dentro la root"
+" directory di ODKSM:"
 
-#: ../../source/installation.rst:37 0064ee9fd6f9484bb4bead119f1571bb
+#: ../../source/installation.rst:35 c99b4e408e2345618a42d7471c20ee82
 msgid ""
 "When the venv is ready, install ODKSM and its dependencies inside the "
 "venv with:"
 msgstr ""
-"Quando il venv è pronto, installa ODKSM e le sue dipendenze dentro il venv con:"
+"Quando il venv è pronto, installare ODKSM e le sue dipendenze dentro il "
+"venv con:"
 
-#: ../../source/installation.rst:46 e6e9a96aa10c4d278b388de5e986909c
+#: ../../source/installation.rst:44 e1ba400efa634e64ab211dfe59049838
 msgid "Update"
 msgstr ""
 
-#: ../../source/installation.rst:47 e4efb578ea814deaba55af349f9825e7
+#: ../../source/installation.rst:45 95663179ed3c4ccb92141db56adc55ca
 msgid ""
-"If you used the zipped release, you will need to download the latest "
-"release and replace the content of the whole tool installation with the "
-"new one."
+"If the tool has been installed from the zipped release, the latest one "
+"must be downloaded and the extracted files must replace the old ones."
 msgstr ""
-"Se hai usato la release zippata, hai bisogno di scaricare nuovamente la release "
-"più recente e di rimpiazzare il contenuto della cartella di installazione con i file aggiornati. "
+"Se è stata usata la release zippata, va scaricata la release più recente "
+"e il contenuto estratto deve andare a sostituire la vecchia cartella di "
+"installazione del tool."
 
-#: ../../source/installation.rst:50 fdc56235938e4062858394afe70a1158
+#: ../../source/installation.rst:48 624cff00d4c447c5a22afa8912b0b830
 msgid ""
-"Do not simply overwrite the folder. Delete the old one and replace it "
-"with the new one. This will make sure no old files are left lingering."
+"Do not simply overwrite the tool installation folder. Delete the old one "
+"and replace it with the new one. This will make sure no old files are "
+"left lingering."
 msgstr ""
-"Non sovrascrivere direttamente la cartella. Cancella quella vecchia e rimpiazzala con quella nuova. "
-"Questo farà sì che non rimanga nessun vecchio file."
+"Non sovrascrivere direttamente la cartella di installazione del tool: "
+"cancellare quella vecchia e rimpiazzala con quella nuova. Questo farà sì "
+"che non rimanga nessun vecchio file."
 
-#: ../../source/installation.rst:53 2d7bb5b7f2ba41dc9fa70350c003d859
+#: ../../source/installation.rst:51 e274f0cc4a4e47dea8ca66ee64574876
 msgid ""
-"If you used git instead, you can keep the tool updated by running in its "
-"root directory:"
+"If git has been used instead, it can be used to keep the tool updated by "
+"running in its root directory:"
 msgstr ""
-"Se invece hai usato git, puoi mantenere il tool aggiornato dando come comando nella cartella del tool:"
+"Se invece è stato usato git, si può mantenere il tool aggiornato dando "
+"come comando nella cartella del tool:"
 
-#: ../../source/installation.rst:60 5392ab14b5d84470a6b0adaa717dd675
+#: ../../source/installation.rst:58 4ada8f69c02c4b8d9440bd0315f93682
 msgid ""
-"This will keep you on the stable ``master`` branch, while active "
+"This will keep the tool on the stable ``master`` branch, while active "
 "development happens on ``testing``."
 msgstr ""
-"Questo ti manterrà sul branch stabile ``master``, mentre lo sviluppo attivo rimarrà sul branch ``testing``."
+"Questo manterrà il tool sul branch stabile ``master``, mentre lo sviluppo"
+" attivo procede sul branch ``testing``."
 
-#: ../../source/installation.rst:62 28cd322a135747e39a3d4c443d73c3f5
+#: ../../source/installation.rst:60 81cffc5fcd3441918c6af69b2cab4da1
 msgid ""
-"You will need to have a pristine tool installation to update it this way."
-" If you changed something there, backup any important changes, run ``git "
-"reset --hard HEAD`` to reset the tool to its original state, then update "
-"it!"
+"The installation directory must be *clean* to update it this way. If "
+"something has been changed there, backup any important changes, run ``git"
+" reset --hard HEAD`` to reset the tool to its original state, then update"
+" it!"
 msgstr ""
-"Avrai bisogno di mantenere la cartella di installazione *pulita* per aggiornare in questo modo."
-" Se hai cambiato qualcosa lì dentro, fai un backup di qualsiasi cambiamento importante, esegui ``git "
-"reset --hard HEAD`` per resettare il tool al suo stato originale e a quel punto aggiornalo con git!"
+"La cartella di installazione dovrà rimanere *pulita* per aggiornare in "
+"questo modo. Se qualcosa lì dentro è stato cambiato, fare un backup di "
+"qualsiasi modifica importante, eseguire ``git reset --hard HEAD`` per "
+"resettare il tool al suo stato originale e a quel punto aggiornalo con "
+"git!"
 
-#: ../../source/installation.rst:65 0ea7fc8bf04a4069ada47ac391c79c7e
+#: ../../source/installation.rst:63 a02b07e594e94db4ac4805144c773e86
 msgid ""
-"Remember that, independently from the update method, any ``ODKSM.bat`` or"
-" ``START.bat`` you copied around will need to be manually updated to the "
-"current version, if they have changed."
+"Independently from the update method, any ``ODKSM.bat`` or ``START.bat`` "
+"that has been copied around will need to be manually updated to the "
+"current version, if they have changed with the newest release."
 msgstr ""
-"Ricorda che, indipendentemente dal sistema di aggiornamento scelto, qualsiasi ``ODKSM.bat`` o"
-" ``START.bat`` da te copiati in giro avranno bisogno di essere rimpiazzati con le versioni aggiornate nel "
-"caso siano stati cambiati."
+"Indipendentemente dal sistema di aggiornamento scelto, qualsiasi ``ODKSM.bat`` o "
+"``START.bat`` copiati fuori dalla cartella di installazione del tool avranno "
+"bisogno di essere rimpiazzati manualmente con le versioni aggiornate nel caso "
+"siano stati cambiati dall'update."
 
-#: ../../source/installation.rst:69 619e71a166d74248b9cd15d031717029
+#: ../../source/installation.rst:67 bcb248062bf34fe089aff6b3dcd9cad4
 msgid "Verify the installation"
 msgstr "Verifica l'installazione"
 
-#: ../../source/installation.rst:70 2cf6ba93c6b34b91aa55d614b69428bc
+#: ../../source/installation.rst:68 cb8d38092a2c46f49538a05b4c1f9194
 msgid ""
-"You can verify that ODKSM is working as intended and all dependencies are"
-" met by running its test suite with:"
+"To verify that ODKSM is working as intended and all dependencies are met "
+"run its test suite with:"
 msgstr ""
-"Puoi verificare che ODKSM stia funzionando correttamente e che tutte le dipendenze siano soddisfatte "
-"eseguendo la test suite con:"
+"Per verificare che ODKSM stia funzionando correttamente e che tutte le "
+"dipendenze siano soddisfatte, eseguire la test suite con:"
 
-#: ../../source/installation.rst:76 db8adc5f28da4deab33b601fbbc8d012
+#: ../../source/installation.rst:74 77a75d574550443ca9d7dc6b07e1e8dd
 msgid ""
 "All tests should pass! You are now ready to :doc:`create your first "
 "Instance <usage>`."
 msgstr ""
-"Tutti i test dovrebbero passare! Ora sei pronto per :doc:`creare la tua prima istanza <usage>`."
+"Tutti i test dovrebbero passare! Siamo pronti ora per :doc:`creare la "
+"prima istanza <usage>`."

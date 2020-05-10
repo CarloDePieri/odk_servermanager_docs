@@ -4,16 +4,14 @@ Prerequisites
 ^^^^^^^^^^^^^
 The tool is currently compatible with Windows only (linux support is on its way).
 
-You will need Python 3.8 installed on your machine. You can install it via
-choco_ or via the `official package`_.
+The main requirement is Python 3.8 which can be installed via choco_ or the `official package`_.
 
 Download
 ^^^^^^^^
-The quickest way to get this tool is to download the `latest release`_ from github.
-Simply download the zip and extract it.
+The quickest way to get the tool is to download the `latest release`_ from github and extract the zipped file.
 
-Alternatively, if you prefer to more easily keep the tool updated, you may use git_ directly.
-Once installed, run:
+Alternatively, git_ can be used directly. This solution permits to more easily keep the tool updated.
+Once git is installed, run:
 
 .. code:: console
 
@@ -44,30 +42,30 @@ When the venv is ready, install ODKSM and its dependencies inside the venv with:
 
 Update
 ^^^^^^
-If you used the zipped release, you will need to download the latest release and replace the content of the whole tool
-installation with the new one.
+If the tool has been installed from the zipped release, the latest one must be downloaded and the extracted files must
+replace the old ones.
 
-.. note:: Do not simply overwrite the folder. Delete the old one and replace it with the new one. This will make sure no
-    old files are left lingering.
+.. note:: Do not simply overwrite the tool installation folder. Delete the old one and replace it with the new one. This
+    will make sure no old files are left lingering.
 
-If you used git instead, you can keep the tool updated by running in its root directory:
+If git has been used instead, it can be used to keep the tool updated by running in its root directory:
 
 .. code:: console
 
     $ git fetch
     $ git pull
 
-This will keep you on the stable ``master`` branch, while active development happens on ``testing``.
+This will keep the tool on the stable ``master`` branch, while active development happens on ``testing``.
 
-.. note:: You will need to have a pristine tool installation to update it this way. If you changed something there, backup
+.. note:: The installation directory must be *clean* to update it this way. If something has been changed there, backup
     any important changes, run ``git reset --hard HEAD`` to reset the tool to its original state, then update it!
 
-.. important:: Remember that, independently from the update method, any ``ODKSM.bat`` or ``START.bat`` you copied around will need to be manually updated to
-    the current version, if they have changed.
+.. important:: Independently from the update method, any ``ODKSM.bat`` or ``START.bat`` that has been copied
+    around will need to be manually updated to the current version, if they have changed with the newest release.
 
 Verify the installation
 ^^^^^^^^^^^^^^^^^^^^^^^
-You can verify that ODKSM is working as intended and all dependencies are met by running its test suite with:
+To verify that ODKSM is working as intended and all dependencies are met run its test suite with:
 
 .. code:: console
 
