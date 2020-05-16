@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 20:52+0200\n"
+"POT-Creation-Date: 2020-05-16 22:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,202 +16,180 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/usage.rst:2 14d572b1954b426fa73a8ee41f5dcc32
+#: ../../source/usage.rst:2 57f69f561fd2489fa336fee054122923
 msgid "Usage"
-msgstr ""
+msgstr "Utilizzo"
 
-#: ../../source/usage.rst:3 b9a4c3b45490418798dec906bd2cd796
+#: ../../source/usage.rst:3 351f7cb4563d47649e6a2f5101215944
 msgid ""
 "Here you can find detailed instructions on how to create and maintain an "
 "ODKSM server instance."
-msgstr ""
+msgstr "Qui è possibile trovare istruzioni dettagliato su come creare e mantenere un'istanza server con ODKSM."
 
-#: ../../source/usage.rst:5 7e9e54a56e7f4b0ab678a855fba6d3f1
+#: ../../source/usage.rst:5 d7598b3cc83147a6a558b04a51f43454
 msgid ""
-"First of all you need to ensure the tool is correctly :doc:`installed "
+"First of all make sure the tool is correctly :doc:`installed "
 "<installation>`."
-msgstr ""
+msgstr "Prima di tutto assicurarsi che il tool sia correttamente :doc:`installato <installation>`."
 
-#: ../../source/usage.rst:8 bdb1dd1a7b534819ab6dbd3e079c5557
+#: ../../source/usage.rst:8 777a46981c5e4db1b9a1342bff159022
 msgid "Create a server instance"
-msgstr ""
+msgstr "Creare un'istanza server"
 
-#: ../../source/usage.rst:9 260c531cd7fa4ea2b4bfc97868ef4e4a
+#: ../../source/usage.rst:9 347498ba363d4c6398bbe61c84047642
 msgid ""
-"To create your first instance you will need to fill in the config file "
-"``config.ini`` that can be found in the root directory of this tool."
-msgstr ""
+"Begin by filling in the config file ``config.ini`` that can be found in "
+"the root directory of the tool."
+msgstr "Iniziare compilando il file di configurazione ``config.ini``, che può essere trovato nella cartella principale "
+"del tool."
 
-#: ../../source/usage.rst:12 344deea8406b492da5e81b0a4f28e0f3
+#: ../../source/usage.rst:11 971671908f0349c8a9a27bad5ec8a396
 msgid ""
-"We recommend to never modify files directly in the tool directory: it "
+"It's recommend to never modify files directly in the tool directory: it "
 "will be easier to update the tool."
-msgstr ""
+msgstr "È buona norma non modificare mai i file direttamente nella cartella del tool: questo renderà più semplice il "
+"processo di aggiornamento."
 
-#: ../../source/usage.rst:14 3510f7289fee481cb919f93e40f08f9d
+#: ../../source/usage.rst:13 61a6a8cc3fd0461b9ac3aad7e8f28aaa
 msgid ""
 "Prepare a custom instance folder and copy the ``config.ini`` and "
-"``ODKSM.bat`` files there, instead! You then need to edit ``ODKSM.bat`` "
-"and set the variable ``ODKSM_FOLDER_PATH`` to the tool root folder."
-msgstr ""
+"``ODKSM.bat`` files there; after that, edit ``ODKSM.bat`` and set the "
+"variable ``ODKSM_FOLDER_PATH`` to the tool root folder."
+msgstr "Preparare una cartella per la nuova istanza server e copiare lì i file ``config.ini`` e ``ODKSM.bat``; "
+"dopo aver fatto ciò, editare ``ODKSM.bat`` a impostare la variabile ``ODKSM_FOLDER_PATH`` al percorso completo della "
+"cartella principale del tool."
 
-#: ../../source/usage.rst:17 9abd910dfcac4b17aad40cf357816251
+#: ../../source/usage.rst:16 7accbf5c81224563a049778657a36886
 msgid ""
-"The default_ ``config.ini`` is thoroughly documented and you can also "
-"find all supported fields descriptions in the :doc:`config.ini "
+"The default_ ``config.ini`` is thoroughly documented and all supported "
+"fields descriptions can also be found in the :doc:`config.ini "
 "documentation <config>`."
-msgstr ""
+msgstr "Il ``config.ini`` di default_ è documentato con cura e tutti i campi supportati sono ulteriormente illustrati "
+"nella :doc:`documentazione del config.ini <config>`."
 
-#: ../../source/usage.rst:20 1b892c2ac2da4257acb8c448c2b42302
+#: ../../source/usage.rst:19 8a4764638c6e480fac73d2f502d91a0d
 msgid ""
-"Fields in the ``config`` and ``bat`` sections will be used to fill in "
-"templates for the ``serverConfig.cfg`` (the file that will be passed with"
-" the -config flag to the server) and ``run_server.bat`` (the bat that "
-"will be used to launch the instance)."
-msgstr ""
+"Fields in the ``config`` and ``bat`` sections will be used respectively "
+"to fill in templates for the ``serverConfig.cfg`` (the file that will be "
+"passed with the -config flag to the server) and ``run_server.bat`` (the "
+"bat that will be used to launch the instance)."
+msgstr "I campi delle sezioni ``config`` e ``bat`` verranno usati rispettivamente per compilare i template dei file "
+"``serverConfig.cfg`` (il file che verrà passato al server di Arma con la flag -config) e ``run_server.bat`` (il bat che "
+"verrà usato per lanciare l'istanza server)."
 
-#: ../../source/usage.rst:24 905830d250794da784e6df3b6f8641cf
+#: ../../source/usage.rst:23 c4c550cf2a484fde9f4a96ae676afdb4
 msgid ""
 "Fields from the ``ODKSM`` section will be used directly by the tool to "
 "set paths, mods and keys, amongst other things."
-msgstr ""
+msgstr "I campi della sezione ``ODKSM`` verranno usati direttamente dal tool per impostare "
+"percorsi, mod e chiavi, tra le altre cose."
 
-#: ../../source/usage.rst:26 b965a85a18ae4218ba0b814d1e1322cd
+#: ../../source/usage.rst:25 929a66cd5a6449879ce25a19354cb3e9
 msgid ""
-"You can specify user mods as a list in the config with the "
-":option:`user_mods_list <ODKSM user_mods_list>` field or passing the path"
-" of a mods preset file created by the Arma 3 Launcher with the "
+"User mods can be specified as a list in the config with the "
+":option:`user_mods_list <ODKSM user_mods_list>` field or by passing the "
+"path of a mods preset file created by the Arma 3 Launcher in the "
 ":option:`user_mods_preset <ODKSM user_mods_preset>` field."
-msgstr ""
+msgstr "I mod utente possono essere specificati come lista nel config con il campo "
+":option:`user_mods_list <ODKSM user_mods_list>` oppure passando il percorso ad un preset mod generato dal launcher di "
+"Arma 3 con il campo :option:`user_mods_preset <ODKSM user_mods_preset>`."
 
-#: ../../source/usage.rst:30 a78f13d4f07f49b8bdd05fb3f868b4d4
+#: ../../source/usage.rst:29 4e2c6ef2b66b42499b9ee619b0c55a5d
 msgid ""
 "Server side mods can be specified only as a list with the "
 ":option:`server_mods_list <ODKSM server_mods_list>` field."
-msgstr ""
+msgstr "I mod lato server possono essere specificati soltanto come lista con il campo "
+":option:`server_mods_list <ODKSM server_mods_list>`."
 
-#: ../../source/usage.rst:32 d487c1e1372e4a54b901c1308d74a277
+#: ../../source/usage.rst:31 0c4e9f274d72429f9e4fdbfac4cbfb4f
 msgid ""
-"Once you are satisfied with your config file, you may simply drag&drop it"
-" on the ``ODKSM.bat`` to launch the tool."
-msgstr ""
+"After editing the config file, simply drag&drop it on the ``ODKSM.bat`` "
+"to launch the tool."
+msgstr "Dopo aver modificato il file di config, trascinarlo e rilasciarlo sul file ``ODKSM.bat`` per lanciare il tool."
 
-#: ../../source/usage.rst:34 2a392dd197ec4f4c93870b301af032d5
+#: ../../source/usage.rst:33 9c7b208b13fa4c3b815c0b85893d750b
 msgid "Alternatively, in the shell:"
-msgstr ""
+msgstr "In alternativa, in una shell:"
 
-#: ../../source/usage.rst:40 df967d5c40e0460dae6cb0c4ff203de0
+#: ../../source/usage.rst:39 056cf1e5b1e14e8f8cf3b2c2f3b6898c
+msgid "To launch the instance, once its folder has been created run inside it:"
+msgstr "Per lanciare l'istanza server, una volta che la cartella dell'istanza è stata creata, lanciare al suo interno:"
+
+#: ../../source/usage.rst:48 83925ace2bc94c13a7049a35bf5f070d
+msgid "Manage a server instance"
+msgstr "Gestire una istanza server"
+
+#: ../../source/usage.rst:49 9ec5fb56aeca47f2a6ebbd18c49ff38b
 msgid ""
-"Once the instance folder has been created, to launch it simply run inside"
-" that folder:"
-msgstr ""
+"An *update* of a server instance is needed if a change in mission, mods "
+"or just a field somewhere is desired. To do so, edit your ``config.ini`` "
+"and relaunch ``ODKSM.bat`` via drag&drop or the console."
+msgstr "Un *aggiornamento* di una istanza server è necessario quando si desidera cambiare una missione, dei mod oppure "
+"semplicemente un parametro in un file di configurazione. Per aggiornare, fare le modifiche necessarie al file "
+"``config.ini`` e rilanciare il tool ``ODKSM.bat`` con un drag&drop oppure dalla console."
 
-#: ../../source/usage.rst:49 d3b4b7247ca54e8ba07e1da880db5f7f
-msgid "Managing a server instance"
-msgstr ""
-
-#: ../../source/usage.rst:50 90efbd1c39df4d9da9f9260791e9f85e
-msgid ""
-"You can update a server instance if you want to change mission, mods or "
-"just a field somewhere. Simply edit your ``config.ini`` and relaunch "
-"``ODKSM.bat`` via drag&drop or console."
-msgstr ""
-
-#: ../../source/usage.rst:53 05e9eab7c4e9492f9bb0015371fefe4e
+#: ../../source/usage.rst:52 80622a82116741899b6e697899db35bd
 msgid ""
 "This will re-link / re-copy mods, reset the keys folder and re-compile "
 "config files."
-msgstr ""
+msgstr "Questo forzerà un nuovo link / una nuova copia dei mod, resetterà la cartella delle chiavi e ricompilerà i "
+"file di configurazione."
 
-#: ../../source/usage.rst:55 2e045434834e4d889a074d12de523880
+#: ../../source/usage.rst:54 d5ac3ff06d9e4e0fb8feccd67844e839
 msgid ""
 "When updating mods in the Arma 3 ``!Workshop`` folder the keys files will"
 " probably change. Sadly there's no way to magically link them in the "
-"instance, since the name of the file itself changes. This means that "
-"after updating the mods you probably will need to update your server "
-"instance with ODKSM to re-link keys files."
-msgstr ""
+"instance, since the name of these very files changes. This means that "
+"after updating the mods via Steam, an update to the server instance will "
+"be needed in order to re-link keys files."
+msgstr "Aggiornando i mod nella cartella di Arma 3 ``!Workshop`` i file delle chiavi probabilmente cambieranno. Purtroppo "
+"non c'è modo di collegarli magicamente all'istanza, poiché i nomi dei file stessi cambiano. Questo significa che dopo "
+"un aggiornamento dei mod da Steam sarà necessario anche un aggiornamento dell'istanza server in modo che il tool "
+"possa resettare i link ai file delle chiavi."
 
-#: ../../source/usage.rst:59 ccbcf2109cc7458790484339013241e4
+#: ../../source/usage.rst:58 1380975faa5348d68a575b9b73fefeae
 msgid ""
-"Remember that if you edit **symlinked files** inside a generated instance"
-" folder you are really editing files inside the main Arma folder."
-msgstr ""
+"Remember that when editing **symlinked files** inside a generated "
+"instance folder, files **inside the main Arma folder** are really being "
+"changed!"
+msgstr "È fondamentale ricordare che quando si modificano dei **file symlinkati** dentro la cartella dell'istanza server "
+"generata dal tool, in realtà vengono cambiati i file **dentro la cartella principale di Arma**."
 
-#: ../../source/usage.rst:62 6e4966921fa7446180d8ffaa4a570497
+#: ../../source/usage.rst:61 77c22325b7db42df919192b249cea7f0
 msgid ""
 "Keep in mind that every **real file** inside the generated instance "
-"folder is re-compiled on update. This means that if you edit the "
-"generated ServerConfig.cfg directly you will lose those edits on update. "
-"If you want them to persist, use the main ``config.ini`` file or "
+"folder is **re-compiled on update**. This means that any edits, for "
+"example to a generated ServerConfig.cfg, will be lost on update. For "
+"changes that persist between updates use the main ``config.ini`` file or "
 ":doc:`config templates <templates>`."
-msgstr ""
+msgstr "Fare attenzione ai cambiamenti apportati a **file reali** dentro una cartella di istanza server generata dal tool "
+"poiché essi vengono **ricompilati ad ogni update**, comportando la perdita di qualsiasi modifica. Per mantenere una "
+"personalizzazione tra un update e l'altro, modificare il file principale ``config.ini`` oppure usare i "
+":doc:`template di configurazione <templates>`."
 
-#: ../../source/usage.rst:67 a82d5c6434ea4c4ebc0b8bd742455729
+#: ../../source/usage.rst:66 6dd2bc8bce8e4b8d8d2138eaa33c4947
 msgid "Delete a server instance"
-msgstr ""
+msgstr "Cancellare una istanza server"
 
-#: ../../source/usage.rst:68 010215145aba4670a21a8bffd9052a71
+#: ../../source/usage.rst:67 4694c1c6cc494f2e9fac4b4207832b49
 msgid ""
 "Everything inside a generated server instance folder are either symlinked"
-" or generated by the tool, so you can safely delete the whole folder if "
-"you don't need it anymore or if you need to start over."
-msgstr ""
+" or generated by the tool, so the whole folder can be safely deleted if "
+"not needed anymore or to start over with a new configuration."
+msgstr "Tutto ciò che è contenuto in una cartella di istanza server generata dal tool è un symlink o un file generato "
+"dal tool stesso, quindi l'intera cartella può essere cancellata senza problemi se non è più necessaria o se si desidera "
+"ricominciare da capo con una nuova configurazione."
 
-#: ../../source/usage.rst:72 029ad2eac609466e8d4bf39b7989de0f
+#: ../../source/usage.rst:71 689bb7b2ca2e430f8e1a6ce1819338e6
 msgid "More customization"
-msgstr ""
+msgstr "Ulteriori personalizzazioni"
 
-#: ../../source/usage.rst:73 09f1155e0e02426eac8f53a549ed3223
+#: ../../source/usage.rst:72 6fa7d916c5334992aeacb7a6d7b97311
 msgid ""
-"If you find yourself repeating some task specific to a certain addons or "
-"config edit, chances are that you may find useful tips in our "
-":doc:`Advanced Usage section <quick_start>`."
-msgstr ""
-
-#~ msgid ""
-#~ "To create your first instance you "
-#~ "will need to fill in a copy "
-#~ "of the config file ``config.ini`` that"
-#~ " can be found in the root "
-#~ "directory of this tool."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "We recommend to never modify files "
-#~ "directly in the tool directory: it "
-#~ "will be easier to update the tool."
-#~ " Prepare a custom instance folder and"
-#~ " copy the ``config.ini`` file there, "
-#~ "instead!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Once you are satisfied with your "
-#~ "config file, you may simply drag&drop"
-#~ " it on the `ODKSM.bat` to launch "
-#~ "the tool."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The default_ ``config.ini`` is thoroughly "
-#~ "documented and you can find all "
-#~ "supported fields descriptions :doc:`here as"
-#~ " well <config>`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can specify user mods as a "
-#~ "list in the config with the "
-#~ "``user_mods_list`` field or passing the "
-#~ "path of a mods preset file created"
-#~ " by the Arma 3 Launcher with "
-#~ "the ``user_mods_preset`` field."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Server side mods can be specified "
-#~ "only as a list with the "
-#~ "``server_mods_list`` field."
-#~ msgstr ""
-
+"This is everything needed to run a server instance! More information "
+"about automating some repeating tasks, like setting up several server "
+"instances or performing specific action with specific mods, can be found "
+"in the :doc:`Advanced Usage section <quick_start>`."
+msgstr "Il contenuto di questa pagina è sufficiente per gestire una istanza server! È possibile trovare maggiori "
+"informazioni, riguardo l'automatizzazione di alcune operazioni come la creazione di istanze multiple o azioni specifiche "
+"per specifici mod, nella :doc:`sezione dedicata all'utilizzo avanzato <quick_start>`. "

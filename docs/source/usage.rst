@@ -2,34 +2,33 @@ Usage
 =====
 Here you can find detailed instructions on how to create and maintain an ODKSM server instance.
 
-First of all you need to ensure the tool is correctly :doc:`installed <installation>`.
+First of all make sure the tool is correctly :doc:`installed <installation>`.
 
 Create a server instance
 ^^^^^^^^^^^^^^^^^^^^^^^^
-To create your first instance you will need to fill in the config file ``config.ini`` that can be found
-in the root directory of this tool.
+Begin by filling in the config file ``config.ini`` that can be found in the root directory of the tool.
 
-.. note:: We recommend to never modify files directly in the tool directory: it will be easier to update the tool.
+.. note:: It's recommend to never modify files directly in the tool directory: it will be easier to update the tool.
 
-    Prepare a custom instance folder and copy the ``config.ini`` and ``ODKSM.bat`` files there, instead!
-    You then need to edit ``ODKSM.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to the tool root folder.
+    Prepare a custom instance folder and copy the ``config.ini`` and ``ODKSM.bat`` files there; after that, edit
+    ``ODKSM.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to the tool root folder.
 
-The default_ ``config.ini`` is thoroughly documented and you can also find all supported fields descriptions in the
+The default_ ``config.ini`` is thoroughly documented and all supported fields descriptions can also be found in the
 :doc:`config.ini documentation <config>`.
 
-Fields in the ``config`` and ``bat`` sections will be used to fill in templates for the ``serverConfig.cfg`` (the file
+Fields in the ``config`` and ``bat`` sections will be used respectively to fill in templates for the ``serverConfig.cfg`` (the file
 that will be passed with the -config flag to the server) and ``run_server.bat`` (the bat that will be used to launch
 the instance).
 
 Fields from the ``ODKSM`` section will be used directly by the tool to set paths, mods and keys, amongst other things.
 
-.. note:: You can specify user mods as a list in the config with the :option:`user_mods_list <ODKSM user_mods_list>`
-    field or passing the path of a mods preset file created by the Arma 3 Launcher with the
+.. note:: User mods can be specified as a list in the config with the :option:`user_mods_list <ODKSM user_mods_list>`
+    field or by passing the path of a mods preset file created by the Arma 3 Launcher in the
     :option:`user_mods_preset <ODKSM user_mods_preset>` field.
 
     Server side mods can be specified only as a list with the :option:`server_mods_list <ODKSM server_mods_list>` field.
 
-Once you are satisfied with your config file, you may simply drag&drop it on the ``ODKSM.bat`` to launch the tool.
+After editing the config file, simply drag&drop it on the ``ODKSM.bat`` to launch the tool.
 
 Alternatively, in the shell:
 
@@ -37,7 +36,7 @@ Alternatively, in the shell:
 
     $ ODKSM.bat your_config.ini
 
-Once the instance folder has been created, to launch it simply run inside that folder:
+To launch the instance, once its folder has been created run inside it:
 
 .. code:: console
 
@@ -45,31 +44,32 @@ Once the instance folder has been created, to launch it simply run inside that f
 
 .. _default: https://github.com/CarloDePieri/odk_servermanager/blob/master/config.ini
 
-Managing a server instance
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-You can update a server instance if you want to change mission, mods or just a field somewhere. Simply edit your
-``config.ini`` and relaunch ``ODKSM.bat`` via drag&drop or console.
+Manage a server instance
+^^^^^^^^^^^^^^^^^^^^^^^^
+An *update* of a server instance is needed if a change in mission, mods or just a field somewhere is desired. To do so,
+edit your ``config.ini`` and relaunch ``ODKSM.bat`` via drag&drop or the console.
 
 This will re-link / re-copy mods, reset the keys folder and re-compile config files.
 
 .. note:: When updating mods in the Arma 3 ``!Workshop`` folder the keys files will probably change. Sadly there's
-    no way to magically link them in the instance, since the name of the file itself changes. This means that after
-    updating the mods you probably will need to update your server instance with ODKSM to re-link keys files.
+    no way to magically link them in the instance, since the name of these very files changes. This means that after
+    updating the mods via Steam, an update to the server instance will be needed in order to re-link keys files.
 
-.. important:: Remember that if you edit **symlinked files** inside a generated instance folder you are really editing
-    files inside the main Arma folder.
+.. important:: Remember that when editing **symlinked files** inside a generated instance folder, files **inside the
+    main Arma folder** are really being changed!
 
-.. important:: Keep in mind that every **real file** inside the generated instance folder is re-compiled on update. This
-    means that if you edit the generated ServerConfig.cfg directly you will lose those edits on update. If you want them
-    to persist, use the main ``config.ini`` file or :doc:`config templates <templates>`.
+.. important:: Keep in mind that every **real file** inside the generated instance folder is **re-compiled on update**.
+    This means that any edits, for example to a generated ServerConfig.cfg, will be lost on update. For changes that
+    persist between updates use the main ``config.ini`` file or :doc:`config templates <templates>`.
 
 Delete a server instance
 ^^^^^^^^^^^^^^^^^^^^^^^^
-Everything inside a generated server instance folder are either symlinked or generated by the tool, so you can safely
-delete the whole folder if you don't need it anymore or if you need to start over.
+Everything inside a generated server instance folder are either symlinked or generated by the tool, so the whole folder
+can be safely deleted if not needed anymore or to start over with a new configuration.
 
 More customization
 ^^^^^^^^^^^^^^^^^^
-If you find yourself repeating some task specific to a certain addons or config edit, chances are that you may find useful
-tips in our :doc:`Advanced Usage section <quick_start>`.
+This is everything needed to run a server instance! More information about automating some repeating tasks, like setting
+up several server instances or performing specific action with specific mods, can be found in the
+:doc:`Advanced Usage section <quick_start>`.
 
