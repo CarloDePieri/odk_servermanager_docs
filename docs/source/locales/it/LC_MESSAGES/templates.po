@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 20:52+0200\n"
+"POT-Creation-Date: 2020-05-17 12:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,107 +16,123 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/templates.rst:2 234daa5ebdbe4d4f85d47ebc5e3443e9
-msgid "Files Templates"
-msgstr ""
+#: ../../source/templates.rst:2 266ca71f1da249049365ea7caf55ac06
+msgid "Template Files"
+msgstr "Templates"
 
-#: ../../source/templates.rst:4 eeaec1d0450e4494892ae1768154c161
+#: ../../source/templates.rst:4 6ccb940771564bef868d87de3c50469b
 msgid ""
 "ODKSM compiles the Arma config file and the server startup script "
 "starting from templates that can be found in "
 "``odk_servermanager\\templates``."
 msgstr ""
+"ODKSM compila il file di configurazione di Arma e lo script di startup "
+"dell'istanza partendo da dei template che possono essere trovati dentro "
+"``odk_servermanager\\templates``."
 
-#: ../../source/templates.rst:7 bc3edf27a3354f5585628cfe056719d1
+#: ../../source/templates.rst:7 19349d5a2fe54aaabd3c3255e8dc4aba
 msgid ""
-"These files nicely cover OUR use case but at some point you will probably"
-" need different parameters and generally more control over the configs."
+"These files nicely cover ODK Clan's use case, but at some point different"
+" parameters and generally more control over the configs will probably be "
+"needed."
 msgstr ""
+"Questi file soddisfano le esigenze del clan ODK, ma è probabile che ad un"
+" certo punto diventino necessari ulteriori parametri e più in generale "
+"maggiore controllo sulle configurazioni delle istanze."
 
-#: ../../source/templates.rst:11 1baa878495db497fb2370efab55a67b1
+#: ../../source/templates.rst:11 0c6be27bb56041d887d2b9fa898d2323
 msgid "Custom templates"
-msgstr ""
+msgstr "Template personalizzati"
 
-#: ../../source/templates.rst:12 efb05882d04d4c08b06c9a34c5f1e493
+#: ../../source/templates.rst:12 1061db856d384110936c82a51db2beb9
 msgid ""
-"To enable the use of a custom template you need to make a copy of the "
-"template file and fill in a field in your server instance ``config.ini``."
-msgstr ""
+"To enable the use of custom templates make a copy of the template files "
+"in the instance's folder and fill in the related fields in the instance's"
+" ``config.ini``."
+msgstr "Per abilitare l'uso di un template personalizzato copiare i template dentro la cartella dell'istanza "
+"server e compilare i relativi campi dentro il file ``config.ini``."
 
-#: ../../source/templates.rst:16 33e73f540a8748698314263ce0894f8b
+#: ../../source/templates.rst:16 9a47718e6290406ca47e67f336ce7b01
 msgid "ServerConfig.cfg"
 msgstr ""
 
-#: ../../source/templates.rst:16 9fc4e047078246c583f433b4e95eb4f2
+#: ../../source/templates.rst:16 69cc2ae3f2384b60bd13d2add5b4dd4f
 msgid ""
 "Make a copy of ``server_cfg_template.txt``. Fill in the field "
 ":option:`config_template <config config_template>`."
-msgstr ""
+msgstr "Creare una copia del file ``server_cfg_template.txt`` e compilare il campo "
+":option:`config_template <config config_template>`."
 
-#: ../../source/templates.rst:19 56620995a1f149bda67814b28d059551
+#: ../../source/templates.rst:19 7c27a5ad9ebf4bc5b646f1413d42a263
 msgid "run_server.bat"
 msgstr ""
 
-#: ../../source/templates.rst:19 f3eb0d39ee594f74ac6a1a1ae6762dbf
+#: ../../source/templates.rst:19 8b7a59b27b0b4503ad0e6040899346ed
 msgid ""
-"Make a copy of ``run_server_template.txt``. Fill in the fields "
+"Make a copy of ``run_server_template.txt``. Fill in the field "
 ":option:`bat_template <bat bat_template>`."
-msgstr ""
+msgstr "Creare una copia del file ``run_server_template.txt`` e compilare il campo "
+":option:`bat_template <bat bat_template>`."
 
-#: ../../source/templates.rst:21 9aa74e9949b44747b7c0e18378cfeabb
+#: ../../source/templates.rst:21 8e33104844af401a85f21ddaf2c86250
 msgid ""
-"Do not edit templates file directly in the tool folder! Make a copy and "
-"link that in your ``config.ini``."
-msgstr ""
+"**DO NOT** edit template files directly in the tool folder! Make a copies"
+" and link those in the ``config.ini``."
+msgstr "**NON MODIFICARE** direttamente i file dei template nella cartella del tool! Creare delle copie e linkare "
+"quelle nel file ``config.ini``."
 
-#: ../../source/templates.rst:23 a75de2d61ed0436da57c2d590c811fc3
+#: ../../source/templates.rst:23 cc8fb427551742f39224febfea9ef63d
 msgid ""
-"Your new templates files are now going to be used by the tool. Every edit"
-" you do there will be carried over the generated files when creating or "
-"updating your server instance."
-msgstr ""
+"The new template files are now going to be used by the tool. Every edit "
+"will be carried over to the generated files when creating or updating "
+"server instances."
+msgstr "I nuovi file di template verranno a questo punto utilizzati dal tool. Ogni modifica "
+"verrà riportata nei file generati al momento della creazione o dell'aggiornamento di una istanza server."
 
-#: ../../source/templates.rst:26 511146a00b414ea69f5e5ddefa61f6b8
+#: ../../source/templates.rst:26 881444e9449745d08f71a6612a728368
 msgid ""
-"You can modify these templates to your heart's content but do not delete "
-"statement like ``{{ hostname }}`` or ``{{ password }}``. These token are "
-"used by the template framework to fill in fields values set in the "
+"These templates can be modified to heart's content but don't delete "
+"statements like ``{{ hostname }}`` or ``{{ password }}``. These tokens "
+"are used by the template framework to fill in fields values set in the "
 "``config.ini`` and they are required. You can move them around though."
-msgstr ""
+msgstr "Questi template possono essere modificati a piacere, ma non devono essere cancellati elementi come "
+"``{{ hostname }}`` o ``{{ password }}``. Questi infatti sono utilizzati dal framework dei template per inserire "
+"nei file compilati i valori contenuti nel ``config.ini`` e la loro presenza è quindi obbligatoria, nonostante "
+"possano essere spostati nel file a piacimento."
 
-#: ../../source/templates.rst:31 23dabd8bba454c9d99b7fa4a8846ae7f
-msgid "Custom template fields"
-msgstr ""
+#: ../../source/templates.rst:31 266ca71f1da249049365ea7caf55ac06
+msgid "Custom templates fields"
+msgstr "Campi personalizzati in un template"
 
-#: ../../source/templates.rst:32 6410461cce38428abb9d663a36e499a1
+#: ../../source/templates.rst:32 8c6e1fe8a1a6460ea39f01bca21b0c25
 msgid ""
 "It's possible to fill in custom templates directly from the "
 "``config.ini`` file."
-msgstr ""
+msgstr "È possibile compilare dei valori personalizzati in un template direttamente dal file "
+"``config.ini``."
 
-#: ../../source/templates.rst:34 99bd36f5882747749b288eb0d0f09eb1
+#: ../../source/templates.rst:34 ae65d745c8334b6e9fa0c1c34e19880c
 msgid ""
-"Suppose you needed to change the ``maxPlayers`` Arma config file field. "
-"Sure, you can change it directly in the template. But you can leverage "
-"the template framework and edit the template file with a line like this:"
-msgstr ""
+"Suppose a tweak to the ``maxPlayers`` Arma settings is needed often. "
+"Sure, it can be changed directly in the template. But it's also possible "
+"to leverage the template framework and edit the template file with a line"
+" like this:"
+msgstr "Ipotizziamo, ad esempio, che sia spesso necessario aggiustare il parametro di Arma ``maxPlayers``. Questo "
+"può tranquillamente essere cambiato direttamente nel template. Ma è anche possibile sfruttare il framework "
+"che compila i file di template ed inserire lì una riga simile:"
 
-#: ../../source/templates.rst:41 957ebb1535f94099b45e2f8bbd809077
+#: ../../source/templates.rst:41 90e8e13e98bc4ce586050b5842b05bc3
 msgid ""
-"Now you need to add a new field with the same name in your "
-"``config.ini``, right in the ``[config]`` section. Like this:"
-msgstr ""
+"Now add a new field with the same name in the ``config.ini``, right in "
+"the ``[config]`` section. Like this:"
+msgstr "Ora aggiungere un campo con lo stesso nome nel file ``config.ini``, all'interno della sezione "
+"``[config]``, in questo modo:"
 
-#: ../../source/templates.rst:48 370dc5268deb43b09e966b0a3879d202
+#: ../../source/templates.rst:48 6ae092c1e75f4c09ab6b4b36bdef72dc
 msgid ""
 "When the tool is run, the value of the ``max_players`` field in the "
-"``config.ini`` will replace the whole ``{{ max_players }}`` in your "
-"template file like this:"
-msgstr ""
-
-#~ msgid "Templates"
-#~ msgstr ""
-
-#~ msgid "todo"
-#~ msgstr ""
+"``config.ini`` will replace the whole ``{{ max_players }}`` token in the "
+"template file, resulting in this:"
+msgstr "Quando il tool verrà eseguito, il valore del campo ``max_players`` nel file ``config.ini`` andrà a rimpiazzare "
+"l'intero elemento ``{{ max_players }}`` nel file di template, risultato in qualcosa di simile:"
 
