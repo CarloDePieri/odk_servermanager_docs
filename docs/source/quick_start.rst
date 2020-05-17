@@ -1,28 +1,27 @@
 Quick Start Tool
 ================
-If you are constantly creating new server instances, this tool may definitely make you life easier.
-Its aim is to automate all actions taken at the very beginning of a new server instance creation.
+This tool aims to automate all actions taken at the very beginning of a new server instance creation.
 
 First of all, make sure that ODKSM is installed and that you know how to configure a new instance.
 
 Setup
 ^^^^^
-Begin with choosing a folder that will be the root of all your server instances. Copy there both ``START.bat``
-and ``bootstrap.ini``, that you can find in the ODKSM root folder.
+Begin with choosing a folder that will be the root of all server instances. Copy there both ``START.bat``
+and ``bootstrap.ini``, that can be found in the ODKSM root folder.
 
-You now need to edit ``bootstrap.ini`` and set the two fields in the ``[bootstrap]`` section:
+Now edit ``bootstrap.ini`` and set the two fields in the ``[bootstrap]`` section:
 
 - :option:`instances_root <bootstrap instances_root>`: the directory in which the instances will be saved
 - :option:`odksm_folder_path <bootstrap odksm_folder_path>`: the root of ODKSM
 
-.. note:: You can optionally set additional fields in ``bootstrap.ini``: these will be set as default values in newly
-    created instances' ``config.ini``, so it makes sense to set them here only if they are global value for your
+.. note:: Additional fields can be set in ``bootstrap.ini``: these will be default values in newly
+    created instances' ``config.ini``, so it makes sense to set them here only if they are global values for the whole
     server, like maybe :option:`arma_folder <ODKSM arma_folder>` or :option:`password_admin <config password_admin>`.
 
-Finally, you need to edit ``START.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to your ODKSM root.
+Finally, edit ``START.bat`` and set the variable ``ODKSM_FOLDER_PATH`` to your ODKSM root.
 
-.. note:: If you intend to keep the ``bootstrap.ini`` somewhere else than in the folder of ``START.bat`` you need to edit the
-    latter and set the variable ``DEFAULT_CONFIG`` to the path of your ``bootstrap.ini``.
+.. note:: When keeping ``bootstrap.ini`` and ``START.bat`` in different folders, edit the
+    latter and set the variable ``DEFAULT_CONFIG`` to the path of ``bootstrap.ini``.
 
 Usage
 ^^^^^
