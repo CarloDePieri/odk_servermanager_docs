@@ -1,20 +1,21 @@
 Troubleshooting
 ===============
-In case something goes wrong, you will be warned by the console ui. The message there plus this documentation should be
-enough to correct eventual mistakes in your config.
+In case something goes wrong, the console ui will present warning messages. These messages plus this documentation
+should be enough to correct eventual mistakes in the config.
 
-.. hint:: The tool *should* be able to tell you if your server instance is compromised by the error but, if the an error
-    that shouldn't be there keep reappearing, you may try to delete the instance folder and regenerate with the tool just in case!
+.. hint:: The tool *should* be able to tell if the server instance is compromised by the error but, if an error
+    that shouldn't be there keep reappearing, a possible workaround could be to delete the instance folder and
+    have the tool generate it again!
 
-In case you need more detailed information, you have the option to activate the debug mode of the tool, uncommenting
-this line in your instance's ``ODKSM.bat`` script:
+If more detailed information are needed, there's the option to activate the tool debug mode, uncommenting
+this line in the instance's ``ODKSM.bat`` script:
 
 .. code-block:: batch
 
     SET "DEBUG=true"
 
-The tool will now produce log files containing the stack trace, which you can use to further debug the malfunction. If
-you can't fix your problem this way, be sure to open `an issue`_ on our tracker!
+The tool will now produce log files containing the python stack trace, which can be used to further debug the
+malfunction. If the problem can't be fixed this way, be sure to open `an issue`_ on our tracker!
 
 .. note:: Be specific in the issue report about what you were doing and maybe paste along the error stack trace.
 
