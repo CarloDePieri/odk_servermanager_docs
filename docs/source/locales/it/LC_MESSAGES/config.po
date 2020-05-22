@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 20:52+0200\n"
+"POT-Creation-Date: 2020-05-22 11:59+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,82 +16,89 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/config.rst:2 102268fff8fc4459b5de4bc1d3e1e0d4
+#: ../../source/config.rst:2 4ea531493ef24d60ab90e7060d1c3ed0
 msgid "config.ini"
 msgstr ""
 
-#: ../../source/config.rst:4 721b51757f3a4efb9b56a125317f1a01
+#: ../../source/config.rst:4 135f90fcbd8c43068edb638ab225e1df
 msgid ""
 "In here fields present in the ``config.ini`` configuration file are "
 "described."
 msgstr ""
+"Qui sono descritti i campi presenti nel file di configurazione "
+"``config.ini``."
 
-#: ../../source/config.rst:6 7c36eed2aeb44592b95948eb462ace86
+#: ../../source/config.rst:6 252bbc8e5dcd43f6a471d4b489227eaf
 msgid ""
 "Required fields must be present in the config file but can be empty "
 "string!"
 msgstr ""
+"I campi richiesti devono essere presenti nel file, ma possono essere "
+"stringe vuote!"
 
-#: ../../source/config.rst:9 fe29fb0c4dcf4d759956fefd1cb75cad
+#: ../../source/config.rst:9 f73b0b7caf8d45bca87a921afadd65cc
 msgid "config section"
-msgstr ""
+msgstr "Sezione config"
 
-#: ../../source/config.rst:11 7b2e59727ffb42d5ba1f10db5928105a
+#: ../../source/config.rst:11 bd004815f42842128d1f505f039f26cb
 msgid ""
 "This section will populate the .cfg file that will be passed to the "
 "instance with the -config flag. The name of this specific file will be "
 "specified with :option:`server_config_file_name <bat "
 "server_config_file_name>`."
 msgstr ""
+"Questa sezione popolerà il file .cfg che verrà passato al server con il "
+"flag -config. Il nome di questo file specifico viene dall'opzione "
+":option:`server_config_file_name <bat server_config_file_name>`."
 
-#: ../../source/config.rst:18 9dde9fd37dff470582fd34aab725f5fb
+#: ../../source/config.rst:18 2469137bc03f450398eceee1ed500645
 msgid "The server instance name that will appear in game."
-msgstr ""
+msgstr "Il nome dell'istanza server che apparirà in game."
 
-#: ../../source/config.rst 0a47c432d2ab47b8b5d175bb6d8d823f
-#: 0e6bff77d71543e38f98b1beb849cc94 1e6a099b41d440c5a11188e95a6dee9c
-#: 1eca1495ba0746d7b67d724af254350f 3623fd32a81849379bc087eb804cb310
-#: 367550b2283943679fdd5f4fd622806a 45cade474dff4f6b93bf391df3ee536e
-#: 479fa4816a2a47e8a95060648983420a 500d01ec0564465db78f1573133fb9e3
-#: 52bc48a1897340d993adc7d357c8a8bd 572f8ebdbabe499a9d9edeed272b48c6
-#: 58994f18ba114e06967ade4b45b0f39f 5f583a2f26b5406d9f842eedc92bf739
-#: 784a677a24ea481f9482a544e85f41c3 7ea2239a469d47f5afc512def89adc5a
-#: 872fdc69f5b54faca4ca168e8a61796f a7cd8879787e45f3940fae3cf22ccf3c
-#: c2cdf00e2a024399b6602942d760d615 c50d22bd0410447dbf7cc89699031b91
-#: d2873058725e4cd7b55bc7d2cf9ba263 e81f5963bd5243ed88c7c7cd729d4db2
-#: f43b207c1bfb4494ae2a373b2fe64936 fc00dba4d513447087b885508b1b74c3
-#: fddca1775c5148378ef3a8cf13d15daa
-msgid "required"
-msgstr ""
+#: ../../source/config.rst 0daf68ba93e34588bccb8aae3c7223ea
+#: 177d223a77ee433686d49758a14c8a70 1a384122f6604c6c932493e92c5be1ae
+#: 35f5d3eea18a4b9080a1defd7dae0b0f 36a9ace855674b278a01caada0a79085
+#: 402430bf7a8e4e0296ab11a0bac07559 499d6d6fd7144240878b3a0bc8c7273a
+#: 4fbdc71c554f4e218e70e1536b66bf5e 53925143698b4de18fed80e7b6a32953
+#: 6da593456b62494cbee5c5fc30c7d8bb 7a039426e41c4942aa3cd332544c4c5b
+#: 7a434cc8a46d4ca6a4cdd3fa409f922e 83ac4844668048e0871c50fc67478755
+#: 949f6429593a4400be8ccc96f3f12af0 9d0c3331edb5484985489f611461fb32
+#: aa5bfc4e0dc344388d1191ce256d50f5 aab32abd52ad4ad68fcbd539622ab3b2
+#: b0db1257e424470093d29f6dbbf35beb b6d9c152b2174bb7b0edb9e1ff413b0e
+#: b7856ec90dbe4831b1e4f01cc6032a58 ca5a468d6a5244c9adb62814b6c9093b
+#: d13542fed6864261b2d7b7438eeebb31 ec07eda70f1148f99b00706cd3e46c55
+#: f434a2513e8341a79ab206e0f832c41e
+msgid "Required"
+msgstr "Richiesto"
 
 #: ../../source/config.rst:20 ../../source/config.rst:27
 #: ../../source/config.rst:34 ../../source/config.rst:41
 #: ../../source/config.rst:62 ../../source/config.rst:69
 #: ../../source/config.rst:76 ../../source/config.rst:83
 #: ../../source/config.rst:90 ../../source/config.rst:120
-#: 22716fad8d9348e086273c8a37526734 29e621d2ff9841e8a3ce566daca5edb2
-#: 2e478af53a614eb18b71c6205b6b649b 35dc1d288ed54c40b089e37bf7c47ca6
-#: 6d14eba013f44272bc1e19de94553442 6d30a045705046db8dc45632676f1c71
-#: 6dc23ae64a134b1cb052969189ab22bb 8b78e8501133470ca5838a3c17bed203
-#: 9fb42b967c464623b2f579cb5ba47181 e1849babeb534297a23a2f3fe0fe5943
+#: 0abadaebcfef4ae49399330b2ae55e07 197319456810457cadd78699017bbedb
+#: 1dfbea7e65f74c7ab501079a06d7de17 21f7e7de6a634889a4b16a0a294ad1f1
+#: 25bfa6e3b4bc4f2fbde776e5cf466946 660b33e752374be8a8b429ba06d3facf
+#: 698d49263abc4133af4c1d1c7a6bbe05 d62c35afce5f413a9009062d93e3b762
+#: d78d274b34f54b4785c80e9e8a6a4f69 f26fa9e2a842486592c2ccc501eb0a1c
 msgid "yes"
-msgstr ""
+msgstr "sì"
 
-#: ../../source/config.rst 0c6cebe5c75d4271b2e9a8104b020163
-#: 12581ab1864b40479e90ad384960ce99 3bcb356115624e468b3ea2287a7a4f1f
-#: 3f161397b4434cd589f45f703dd85e12 4fb5bfad96da465583dd1b02e2b64673
-#: 61b2359803d84b0eb846e660a4fb5b2b 715b1e296fc547048b77bf40ed51738d
-#: 7a7d2f2a3c704aa5a1234d13259d4aae 7fc328cd7ddc400da1a74955269b664a
-#: 809747e422574ff09cae990e42defccd 924dbd69e50a46e4bf522b06894cc00f
-#: 944a6adb72ac44c98a375750b172a55a 972a6d8269e842d38742f1f1e1bcaf7f
-#: 973e4d44cddb40ccadc3ec5595a85f58 990db32f226b4904b8f38e18e414b805
-#: 9eb31f72a88c413eb77af98108d1556b a2184f8d568a4e448143c53d13dffa55
-#: a63b57a49370485fba9d6e6401f46755 b5e71cc045034a02b3f3f41c1c1569e3
-#: c69226693b1a451792ed11acee0c8397 c7c2237c27264a5caea47762926a35c9
-#: d105344225494405ac7c0324146119f1 db5cb447627344efa471db83cb28af7c
-#: f0c27ed4d88c48519e67f4ba8a30ee66
-msgid "type"
-msgstr ""
+#: ../../source/config.rst 1015b9634a83419591fd1800254b6155
+#: 16c2accceb834542843da74e532b9bd3 27500e9400e441e982a0fe3976295a7e
+#: 2a9ee5b899f646c6a5145dda66b0c3f9 3bcf5f6df62c4e5ab68210c5b62d8f66
+#: 4dfd2d4df0c541ccbaca050bcad8e49b 4e0c5e66c55a4ac2b0597fb932a72274
+#: 55a93036ed68443f9076172d14739dcf 6a90531fa27c435bbc278d5b629bf559
+#: 834727a1fb1f4f66b50654102e0f8255 8521d713dd27441f845839a6a3ab7a64
+#: 9239a8abd16d49f598cf1af75bd23a05 92b622b26ed842639760408370eb838d
+#: 9556858bfd364cb8aa2d63ec50f224e5 9b5b7e1151f943dc93b2e91cbcfaed03
+#: b5eec3b99b2b4d13a5cb526dedf28b1f c5776639507849bda0d4cb8106995e66
+#: ca5846ad42cf4dea82edfde0dc4b6cbb d88db3c789074d25a42d5b966774866c
+#: d98c0a49230f473aad79a71e3aafeb55 e8172101e51b41a890a88662933e44d3
+#: ef9fb17714634dc290dd55b2cc6ed0f1 f28b185122ff467aa91a4c4fdd9f0f17
+#: f92e8301c115449cb4e0ba27542f749a
+msgid "Type"
+msgstr "Tipo"
 
 #: ../../source/config.rst:21 ../../source/config.rst:28
 #: ../../source/config.rst:35 ../../source/config.rst:42
@@ -102,35 +108,39 @@ msgstr ""
 #: ../../source/config.rst:121 ../../source/config.rst:128
 #: ../../source/config.rst:168 ../../source/config.rst:176
 #: ../../source/config.rst:184 ../../source/config.rst:192
-#: ../../source/config.rst:200 16cdbd47781a4448afcc7763dd7a474a
-#: 1e0d957a623c4a93afa852aeb15109a2 1f63b7c0fc5f4356bc8908d260839b0f
-#: 310d95a23c8e4b16a1c22e01ca41d32a 3521d1c8ae854712a7248fa3e90a4aab
-#: 38c728b250284fc4b28527f68b2128ef 3af2acd63f6d450da7173168c749b8f3
-#: 5df91ff7df1744c296e548bd8476846b 8996f634ff98477d9fe7922f536fae51
-#: 932a7256f8fb489cb26d14354d9cda3d a6a39cbee2cd4e92a98b12b0f03de193
-#: b16fa62d9bc54305a114d162e5ba3ef3 b2e35809b0fb4af08386f34b5618819a
-#: b3742de07b73407f91e2de894dfe38cc b4fef57eb33c44ee99532182a05dfa2c
-#: d39f2c969e7443279fdfecd485ecccb9 ed479e6688b849afb68c5df1a2fd8ffe
+#: ../../source/config.rst:200 0c8e8092ef3240d68f9ac232eb25b1e6
+#: 1c9c10370f9e443a892a42d4ee2cb7a3 41a7fdf0db174ab992fe66b0dd4f06fb
+#: 44393880db68494ab675c044b9412b01 4eb2762aab5044e1b9349f0372e5872e
+#: 5a8ea9a5994b476fa69c45b129e6580f 5ddfa2a643a94ab081fd1ce2e8dd488b
+#: 5fe608b0ccb340d1829fca148d693d9f 69df11bc4a2c4e58bef31975ae9d50bf
+#: 7e3285b17ef54748b6a0a359ad370cd2 9810edc1414b42c1915264b9054de427
+#: a90dc995d8fc4831a4954c0365923e66 bd2f6780f424471888b1c566b1100e66
+#: d247ae54c1f8411d8a4fb32a65aa8e7b e3c0a370400c481eb44d888657722252
+#: ee627cc1f5aa4f5e8b0881fce312d1cb fa738e3896384812910a1868d3b33101
 msgid "string"
-msgstr ""
+msgstr "stringa"
 
-#: ../../source/config.rst:25 5a2313352f724e67b15078aab7bb0104
+#: ../../source/config.rst:25 699782d89ce94bc58191d6491b78cca3
 msgid "The user password for accessing the server."
-msgstr ""
+msgstr "La password utente per accedere al server."
 
-#: ../../source/config.rst:32 aa73ae88d5624017a1394013862801b4
+#: ../../source/config.rst:32 08e1cfc6a9e443e9a8f8655621c7f962
 msgid "The password admins use to manage the server."
-msgstr ""
+msgstr "La password che gli admin usano per gestire il server."
 
-#: ../../source/config.rst:39 7efe2a6de82641afb33518075ad1b905
+#: ../../source/config.rst:39 00c70041b6ef401d874f5c7f05200041
 msgid "Filename of pbo in ``MPMissions`` folder."
 msgstr ""
+"Il nome del file (senza estensione .pbo) della missione contenuta nella "
+"cartella ``MPMissions``."
 
-#: ../../source/config.rst:46 552dec2baee7451ba4852592f5f5632b
+#: ../../source/config.rst:46 5e21b6b6f32e4b14ab7bbbcc40262336
 msgid ""
 "Path of the custom template file for the cfg (more on :doc:`templates "
 "<templates>`)."
 msgstr ""
+"Percorso del file template personalizzato per il file cfg (vedi "
+":doc:`templates <templates>`)."
 
 #: ../../source/config.rst:48 ../../source/config.rst:97
 #: ../../source/config.rst:105 ../../source/config.rst:127
@@ -139,25 +149,25 @@ msgstr ""
 #: ../../source/config.rst:167 ../../source/config.rst:175
 #: ../../source/config.rst:183 ../../source/config.rst:191
 #: ../../source/config.rst:199 ../../source/config.rst:216
-#: 1ffc2495704d4d559b7103f3202e98f4 20348889cf3447a7a5831b4269b3249a
-#: 4eeaf340de194f78863be0dfccaa842b 5778a65110924d93931ffd26ec9a5391
-#: 64dc2464586a486db84a81b38d2807c7 7fdf2a01e868454baf181c48bb67fa91
-#: 83f6f48fa9294ae08caa0dc7a2378667 968f1b4e115a4ff6b518f00e62d06d5a
-#: aae0e8a28d904be0a7aba696576f3f14 ad9b53bd2a814a88b0fae831e463dd5e
-#: b836acdb29e948e3a8649da34a2ca87b d1c4fe474154488ab772d3f4d1334891
-#: f580e7eb9fd94bb59f38dab360ad1503 fb5b2b9eda8b43a88f950442a3addb8d
+#: 1ae72f079cce4d9b91f3f8f239d610f3 1ce95aba1a8b4f46b76f0ee1a3e2c26d
+#: 2817b37be502478d8d779fabcbf03b21 55caaa2df0cb4a248b40f036f4d8f30d
+#: 5eeb1d34a3974a40b7401acfac7b8ef1 8b42a5b78f034fb6acff0221bffa7fe6
+#: 8c164a68248144758cca13bf189a768d 8c314642eda640348a13c09c69af3be7
+#: 9bf91c4f520144d9a978703fdce3dc63 bcae8005d6bd46b7a1eca56db9a9f79a
+#: c4a545a661794ff8b465178104a745bf c523f37c7b15479fa99527bd69ec8846
+#: dd66d5800e414e6a9ffaf944c3ea983e f48b6e95ef2948fb8dec44a7397080d3
 msgid "no"
 msgstr ""
 
-#: ../../source/config.rst 0746137481084f1c81528f0f2694dea6
-#: 29bf88a8e39e4e87aecc5e9be97eed70 57fa01a31c1741658efd7004923e73cf
-#: 5910abdfe0ca4591b83f8124fcfb3ce6 6cdc9fc943f14d51b0e4ad848f4697a5
-#: 6f30bbbc9d624983bb8f7ea29cb6e826 8c3669eeaf7f4b97b3d834b2796890b4
-#: ab83ba04eb454c25970fb73804a4694d bed144222f664db69f32f8b24999bfd1
-#: c5d3ba508b77448a89f9cbc4f6730115 dfd20d4e63f0455f9e72dbeace407f8d
-#: e2a669f9455245629b0f07aa1fb873c0 fcc8e56a792b44e2ba45415dae742f0b
-#: fe01f5a2b21f45fdb2a59c12acabebc8
-msgid "default"
+#: ../../source/config.rst 25dc2b1cd1b94634b76337f4f191daeb
+#: 412d2408dc7543a38daa4e01fbb408ec 413186b1e7c240b9bf140d7d3cb462f4
+#: 44adfe31efdd454e9954f069e22170ca 6377468e91ba4733b1255adcbd5f0844
+#: 6edd284f560640479a0509f027144705 84919416d97d4efe881aaf51a131b9f7
+#: 8fa4c154bb1545269ddcab71ad62491e a9fb803adb374b0a8a7fe96cb09a28b7
+#: b1b2cdc985ea455caf8f1e20f95be878 c4af5e394d2c4095be6882f5d8dad2fd
+#: ca42664622d04d92a57a37d297892d0b e074caca00074ad78b2c2a1bb669d201
+#: f48aa8b1c307488182a659be83d18327
+msgid "Default"
 msgstr ""
 
 #: ../../source/config.rst:50 ../../source/config.rst:99
@@ -165,152 +175,167 @@ msgstr ""
 #: ../../source/config.rst:137 ../../source/config.rst:145
 #: ../../source/config.rst:153 ../../source/config.rst:161
 #: ../../source/config.rst:201 ../../source/config.rst:218
-#: 13e22cb1ebee413eb4981031c47aa633 201cb601adcd4d05838c083047e0e91e
-#: 378940dbafc24a0482a0f1aa2d87cff4 58ab63c1b261423eae0975e0345c1e66
-#: 659382ea1abb41128d504e253bb0e107 6655898aad4341638d7707c06ea432ba
-#: 9bc69b4384984dd69845996792d9ac34 bdb7987cb1cc4a4db478b4a86a63d09a
-#: eeee238c4692465b98b405b6a92a255a f0d2c0a7e3d04cea95983b4a60b10a2b
+#: 18c844a468c3477780f753b735877048 2b57b9b020864543a8447a2e6abae370
+#: 6e04db4e63504fd08db997e140a4119b 7b05566d8127478ba95bfaecf63724a5
+#: 90b3bf96f80a42a1839c6e38eb2316b8 b35c19283a8d4a4c941daecfe38782c0
+#: c50444a7aa2c458b9e02738a61079e5b d570d6b3d0154cfeb57bac8cf83b3f74
+#: ea07ba179e0c4f49bf2e3696adb61122 f4c0702d0b4441e1ab9d23fec09e584c
 msgid "``\"\"``"
 msgstr ""
 
-#: ../../source/config.rst:53 eb02670d37a4411bbeb6bb439ee6e823
+#: ../../source/config.rst:53 babbc7f733004079845b2c7371fb527a
 msgid "bat section"
-msgstr ""
+msgstr "Sezione bat"
 
-#: ../../source/config.rst:54 7d66f2fabb7d4803b7186f8ecb3d392f
+#: ../../source/config.rst:54 97a058f890c7430dac0883be1594baf6
 msgid ""
 "This section will populate the ``run_server.bat`` file that will be used "
 "to start the instance."
 msgstr ""
+"Questa sezione popolerà il file ``run_server.bat`` che verrà usato per "
+"avviare l'istanza server."
 
-#: ../../source/config.rst:60 764b784e7ba9458b9f35d9f864d8973e
+#: ../../source/config.rst:60 703bace14190491c89a0af8988d6de09
 msgid "The server instance name that will appear in the monitoring tool."
-msgstr ""
+msgstr "Il nome dell'istanza server che apparirà nel tool di monitoring."
 
-#: ../../source/config.rst:67 fe38988cbb494f14bc6e9b466cee176b
+#: ../../source/config.rst:67 69051c5936cd4d89b3979d4ed8b35034
 msgid "The port the server is running on."
-msgstr ""
+msgstr "La porta che occuperà il server."
 
 #: ../../source/config.rst:70 ../../source/config.rst:77
-#: 293081a8d20349d8b370d9f1ed220120 5bfe1ef4a352424f8b9c03e3db6eec2c
+#: 099bbeef9a8842cba5a1f5d4be013eaa 72be8930b8ac4ba8af3f34f8924dd6c2
 msgid "string (**number**)"
-msgstr ""
+msgstr "stringa (**numero**)"
 
-#: ../../source/config.rst:74 945aeac746e8433cb57f671bb0b0ff5a
+#: ../../source/config.rst:74 cdb34353510849df8a34437d5593ffdc
 msgid "The max memory that the server will be able to allocate."
-msgstr ""
+msgstr "La memoria massima che il server potrà allocare."
 
-#: ../../source/config.rst:81 36ca1e1df9504cb6a0068845f1a0e294
+#: ../../source/config.rst:81 8d20eff388434393ae96b8b6dd7d8ad2
 msgid "The name of the *config* file, located in the instance folder."
-msgstr ""
+msgstr "Il nome del file *config*, nella cartella dell'istanza."
 
-#: ../../source/config.rst:88 4381058ea65146a3a56d99d36210b5b3
+#: ../../source/config.rst:88 c6181f48eb474227b240a050bb60bdea
 msgid "The name of the *cfg* file, located in the instance folder."
-msgstr ""
+msgstr "Il nome del file *cfg*, nella cartella dell'istanza."
 
-#: ../../source/config.rst:95 0c99b7dc18d9441182fe91dca0a36912
+#: ../../source/config.rst:95 365e448ccafb4a818deb360c515cc999
 msgid "Any addition flag to be passed to the server at run time."
-msgstr ""
+msgstr "Flag addizionali che verranno passati al server al momento del lancio."
 
-#: ../../source/config.rst:103 017a097f1a3a47b699959f390b9f0351
-msgid "Path of the custom template file for the bat."
+#: ../../source/config.rst:103 a1c8b2cfcbdc406e9e28f4062c4a9670
+msgid ""
+"Path of the custom template file for the bat (more on :doc:`templates "
+"<templates>`)."
 msgstr ""
+"Percorso del file template personalizzato per il file bat (vedi "
+":doc:`templates <templates>`)."
 
-#: ../../source/config.rst:110 e01529c364c64067800ccf0a439b0bd7
+#: ../../source/config.rst:110 9ecb5eec8aa34361aa665e5520509434
 msgid "ODKSM section"
-msgstr ""
+msgstr "Sezione ODKSM"
 
-#: ../../source/config.rst:112 f145e8fb95fb4dc6b05c4156c164f5cd
+#: ../../source/config.rst:112 2009e40f281b46888beba866a0f4c4e6
 msgid "This section contains various settings required by the tool."
 msgstr ""
+"Questa sezione contiene varie impostazioni che riguardano direttamente il"
+" tool."
 
-#: ../../source/config.rst:118 da61c79c1ec04129978de6579db0aac2
+#: ../../source/config.rst:118 eb23f2f963c344cebc2938f975c3fc2f
 msgid "The name that will appear in the instance folder name."
-msgstr ""
+msgstr "Il nome che apparirà nella cartella dell'istanza server."
 
-#: ../../source/config.rst:125 c1761db4bc674801bdcc3e7cf40e291f
-msgid "The path of an html preset generated by the Arma 3 launcher."
-msgstr ""
+#: ../../source/config.rst:125 3d348edfd4364d2491756f8311dd4fcd
+msgid "The path of a mod html preset generated by the Arma 3 launcher."
+msgstr "Il percorso del file preset di mod html generato dal launcher di Arma 3."
 
-#: ../../source/config.rst:133 f25dd129c18347eb93a1bc7e6f96664b
+#: ../../source/config.rst:133 3fb50f6a6e4a405f9761571963dd7f1a
 msgid "The list of the user mods."
-msgstr ""
+msgstr "La lista dei mod utente."
 
 #: ../../source/config.rst:136 ../../source/config.rst:144
 #: ../../source/config.rst:152 ../../source/config.rst:160
-#: 25efc84ffe9d4a9fba242ff0bd4074fc a77caf6beef14bdd961bb7b0bf992b93
-#: adffb61b84ee47fab4746b3a2d2fbeef f33685deb10049759af86e42fb001961
-msgid "string (mod's names separated by a single ``,``)"
-msgstr ""
+#: 543f0f0b3c8140d8963cc46acfc33a29 8cb38c371ed243e7ae4c05e2bc4830e7
+#: 970d4e850d9149f1bebdd1120cbe9b0e b3e5d68c28344af28c2becf3c7894d67
+msgid "string (list of mod's names separated by a  ``,``)"
+msgstr "stringa (lista di nomi di mod separati da una ``,``)"
 
-#: ../../source/config.rst:141 6e8c6fa2dc714477acb56d885ed6eb43
+#: ../../source/config.rst:141 07a7d20be8b04af18bb4d840c0eb6274
 msgid "The list of the server mods."
-msgstr ""
+msgstr "La lista dei mod lato server."
 
-#: ../../source/config.rst:149 21716627b3ce4f0daa3c3009c7a2dc60
+#: ../../source/config.rst:149 830dc9af84004ed39b4448d1f4d344bf
 msgid "A user or server mod in this list will be copied instead of linked."
 msgstr ""
+"Un mod utente o lato server presente in questa lista verrà copiato invece"
+" che symlinkato."
 
-#: ../../source/config.rst:157 1dabad3635674e1889710a551cc4415c
+#: ../../source/config.rst:157 eb85d21d824943519dd53fa2ef989d42
 msgid "Which key will be skipped and not linked to the main Keys folder."
 msgstr ""
+"Lista di chiavi che verranno ignorate e non linkate nella cartelle Keys "
+"di Arma."
 
-#: ../../source/config.rst:165 b4b58b98af9749ab9192b826038c9278
+#: ../../source/config.rst:165 016bc3ea962b417998e85ccaf0bfac17
 msgid "The folder that contains the game."
-msgstr ""
+msgstr "La cartella che contiene il gioco."
 
 #: ../../source/config.rst:169 ../../source/config.rst:177
-#: 43fa28d0337e478ca10c21a376bc73fd 65bdf46a7b614eb6ac67c695ff9ada8c
+#: 0747cd1d44b14bbd815d53a53c00491b dae21afbfcb4477b91c45aeb6c95e56e
 msgid "Default Arma 3 installation path with Steam"
-msgstr ""
+msgstr "percorso di installazione di default per Steam"
 
-#: ../../source/config.rst:173 50524b719bdd4da6b34ef9a7684cae33
+#: ../../source/config.rst:173 70cb4fc6550846438cd89e4d0c4b06ef
 msgid "Every instance folder will be put in this root folder."
-msgstr ""
+msgstr "Ogni cartella di istanza server verrà messa in questa cartella."
 
-#: ../../source/config.rst:181 5757fbdfae2a4f3f9b08e929e6672779
+#: ../../source/config.rst:181 914370ceb4dd407a88232b5cb33a703d
 msgid "The name of the linked mod folder."
-msgstr ""
+msgstr "Il nome della cartella dei mod linkati."
 
-#: ../../source/config.rst:185 bebb5c381699488cb9d1ff031c274a7f
+#: ../../source/config.rst:185 f116b59590a7488bac06ee699ca993a4
 msgid "``\"!Mods_linked\"``"
 msgstr ""
 
-#: ../../source/config.rst:189 a92f0c9e8ea64f99b81c9d09ddee676a
+#: ../../source/config.rst:189 62ece262d52b4486ae3e9c5ad93fc363
 msgid "The name of the copied mod folder."
-msgstr ""
+msgstr "Il nome della cartella dei mod copiati."
 
-#: ../../source/config.rst:193 7833bea0d9d848aa90f2b95530a0c221
+#: ../../source/config.rst:193 b3cd54d3a7a44d4ba3a38f968e9b2fbf
 msgid "``\"!Mods_copied\"``"
 msgstr ""
 
-#: ../../source/config.rst:197 e098a52b786745cfaa86a8c73813ab6a
+#: ../../source/config.rst:197 588d77715e574c4aaa0c0a12f31d17fb
 msgid "Every instance folder name will be prefixed by this."
-msgstr ""
+msgstr "Il nome di ogni cartella di istanza server inizierà con questo prefisso."
 
-#: ../../source/config.rst:204 3a96c320fc644eafbe7dd20eb6d17fd0
+#: ../../source/config.rst:204 68b29f8cef9e49be920ae577437b5501
 msgid "mod_fix_settings section"
-msgstr ""
+msgstr "Sezione mod_fix_settings"
 
-#: ../../source/config.rst:206 a1b8f35ca02348948e1d616e14fa46e9
+#: ../../source/config.rst:206 48d54ca0e64e436d8fadaac61daae9e3
 msgid ""
-"These are settings required by specific ModFix modules. Do note that if a"
-" module is enabled the relative settings MAY be required. More specific "
-"information about single modfix can be found in the :doc:`modfix "
-"documentation <modfix_doc>`."
+"These are settings required by specific :doc:`ModFix modules <modfix>`. "
+"Do note that if a module is enabled the relative settings MAY be "
+"required. More specific information about single modfix can be found in "
+"the :doc:`modfix documentation <modfix_doc>`."
 msgstr ""
+"Queste sono impostazioni richiesti da specifici :doc:`moduli ModFix <modfix>`. È "
+"importante ricordare che a seconda dei moduli abilitati, potrebbero "
+"essere richiesti campi addizionali. Informazioni più dettagliate sui "
+"singoli modfix possono essere trovati nella :doc:`relativa documentazione"
+" <modfix_doc>`."
 
-#: ../../source/config.rst:213 d5524ea6045e459c9f79ceba27c75d50
+#: ../../source/config.rst:213 629189e557b443f0ab4d14f350139a45
 msgid ""
 "All enabled fix file names (without the .py); will automatically put "
 "these mods in :option:`mods_to_be_copied <ODKSM mods_to_be_copied>` if "
 "needed."
-msgstr ""
+msgstr "I nomi dei file modfix (senza l'estensione .py) da abilitare; i relativi mod verranno "
+"automaticamente aggiunti alla lista :option:`mods_to_be_copied <ODKSM mods_to_be_copied>` se necessario."
 
-#: ../../source/config.rst:217 4cc72186d4f645ccbbe497a725feaa0b
-msgid "string (fix's names separated by a single ``,``)"
-msgstr ""
-
-#~ msgid "TODO"
-#~ msgstr ""
+#: ../../source/config.rst:217 cd5276f16f46400b846806a321f0e180
+msgid "string (list of fix's names separated by a  ``,``)"
+msgstr "stringa (lista di nomi di ModFix separati da una ``,``)"
 

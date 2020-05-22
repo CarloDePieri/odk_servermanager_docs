@@ -101,7 +101,7 @@ msgid ""
 "Simply launch the ``START.bat`` script. A console ui will ask for the "
 "instance name and whether to include :doc:`templates <templates>`."
 msgstr "Lanciare lo script ``START.bat``. Una interfaccia da console chiederà "
-"il nome dell'istanza e se includere dei :doc:`templates <templates>`."
+"il nome dell'istanza e se includere o meno dei :doc:`templates <templates>`."
 
 #: ../../source/quick_start.rst:31 21cad350397d43179e244126d47968d3
 msgid ""

@@ -13,17 +13,17 @@ This section contains settings used by the quick start tool.
 
     The absolute path to the folder in which the tool will create the new instance root folder.
 
-    :required: yes
-    :type: string
-    :default: ``""``
+    :Required: yes
+    :Type: string
+    :Default: ``""``
 
 .. option:: odksm_folder_path
 
     The absolute path to the folder containing the odksm ``run.py``.
 
-    :required: yes
-    :type: string
-    :default: ``""``
+    :Required: yes
+    :Type: string
+    :Default: ``""``
 
 config, bat, ODKSM, mod_fix_settings sections
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

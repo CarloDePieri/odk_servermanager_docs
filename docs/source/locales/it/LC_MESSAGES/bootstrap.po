@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 20:52+0200\n"
+"POT-Creation-Date: 2020-05-22 11:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,78 +16,85 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/bootstrap.rst:2 a351e02b2d8e4a4eb7409a3bf0d3070a
+#: ../../source/bootstrap.rst:2 2fd9a00dd3db41efaec15d80d08583f7
 msgid "bootstrap.ini"
 msgstr ""
 
-#: ../../source/bootstrap.rst:4 f0f9a5c8f8d446909c92aa3d7e9df3d4
+#: ../../source/bootstrap.rst:4 146f3584f18c4a31819d8c2ca8f4d163
 msgid ""
 "In here fields present in the ``bootstrap.ini`` configuration file are "
 "described."
-msgstr "Qui sono descritti i campi presenti nel file di configurazione ``bootstrap.ini``."
+msgstr ""
+"Qui sono descritti i campi presenti nel file di configurazione "
+"``bootstrap.ini``."
 
-#: ../../source/bootstrap.rst:7 8fb81820660b4137a9450631ca79643e
+#: ../../source/bootstrap.rst:7 91d4c70d150e4a1ba2d709b55e33d195
 msgid "bootstrap section"
 msgstr "Sezione bootstrap"
 
-#: ../../source/bootstrap.rst:8 be0d8a92911047dd852e0980114ab4ef
+#: ../../source/bootstrap.rst:8 f96a6335ed094f3cb6e293768df81a20
 msgid "This section contains settings used by the quick start tool."
 msgstr "Questa sezione contiene impostazioni usate dal tool di Quick Start."
 
-#: ../../source/bootstrap.rst:14 36186f1a89d04901bad35d9ff10381ea
+#: ../../source/bootstrap.rst:14 ecf6c87e680f4125b8e89daca3475938
 msgid ""
 "The absolute path to the folder in which the tool will create the new "
 "instance root folder."
-msgstr "Il percorso assoluto della cartella dove il tool creerà le cartelle "
-"delle nuove istanze server."
+msgstr ""
+"Il percorso assoluto della cartella dove il tool creerà le cartelle delle"
+" nuove istanze server."
 
-#: ../../source/bootstrap.rst 35d650362e1b4d45aeef6629c53bcdaf
-#: fa8da8b24af64bcfb7de81b0fe8773a2
-msgid "required"
-msgstr "richiesto"
+#: ../../source/bootstrap.rst 2407725b2d2d41bcb6efe4ede784a85a
+#: b97d70ace4ab430aa0b72d7baba43219
+msgid "Required"
+msgstr "Richiesto"
 
 #: ../../source/bootstrap.rst:16 ../../source/bootstrap.rst:24
-#: 97320be454bf4247861b3d45c23ba735 c90a5429908c4f80a9732c8c3c367c0d
+#: 58b2fac4f9b74759982ec9e5b52f3b83 bc62d3b0be724f3eb791f819d2a8867b
 msgid "yes"
 msgstr "sì"
 
-#: ../../source/bootstrap.rst 79f2aaf3034e4043b729f7c8a5e1c690
-#: cdf311d05541456fbca45dc03032c48d
-msgid "type"
-msgstr "tipo"
+#: ../../source/bootstrap.rst 8e3b6252ddba4345a388e5d50c1b1488
+#: 9ffd36cb65da4fed9cb18601f4a95318
+msgid "Type"
+msgstr "Tipo"
 
 #: ../../source/bootstrap.rst:17 ../../source/bootstrap.rst:25
-#: 0684bd9ed23b465ea33dd110fc754f34 4ecd4a1ebc4b4b62a5c89f41b47f509c
+#: 439e4856b0be4a079117ad47ac527f66 8e6dff67403448e581fe288806c78737
 msgid "string"
-msgstr ""
+msgstr "stringa"
 
-#: ../../source/bootstrap.rst 1caeb4c90a594c01ba93dadf7b140ec2
-#: 78a0ad20d66e413280f605b1e2454f5a
-msgid "default"
+#: ../../source/bootstrap.rst 0165b04978ab4f84ad7fd3481630ef2b
+#: e43ff4312360469a88e9380392676e24
+msgid "Default"
 msgstr ""
 
 #: ../../source/bootstrap.rst:18 ../../source/bootstrap.rst:26
-#: 5370621141914858beb2c76f77ae7d0d ffd65e758908465b9d26968c20523ec5
+#: a56f21df109f4b2096e2a4f69112c4e2 dd75011a35f84969b32f2da547599ab0
 msgid "``\"\"``"
 msgstr ""
 
-#: ../../source/bootstrap.rst:22 c65d0b15ea014f89b44b4f627945bbbf
+#: ../../source/bootstrap.rst:22 5e6e01bfe2bd4c9f92d5a6349c0374dd
 msgid "The absolute path to the folder containing the odksm ``run.py``."
-msgstr "Il percorso assoluto della cartella che contiene il file di ODKSM ``run.py``."
+msgstr ""
+"Il percorso assoluto della cartella che contiene il file di ODKSM "
+"``run.py``."
 
-#: ../../source/bootstrap.rst:29 665abfc786244863a36ca259a12805d8
+#: ../../source/bootstrap.rst:29 c96602ed40ff4fafbac6c95826c84ff2
 msgid "config, bat, ODKSM, mod_fix_settings sections"
 msgstr "Sezioni config, bat, ODKSM, mod_fix_settings"
 
-#: ../../source/bootstrap.rst:31 daba60601d70461ebe18b1615b0266df
+#: ../../source/bootstrap.rst:31 6365c940dec64f2993af886cab889a0e
 msgid ""
 "All values in these section will be the default one present in the "
 "``config.ini`` of a new instance. They are described in :doc:`the "
 "config.ini documentation<config>`."
-msgstr "Tutti i valori in queste sezioni saranno quelli presenti di default nei file "
-"``config.ini`` in ogni nuova istanza server. Nella :doc:`documentazione del config.ini <config>` "
-"può essere trovata una descrizione di tutti i relativi campi."
+msgstr ""
+"Tutti i valori in queste sezioni saranno quelli presenti di default nei "
+"file ``config.ini`` in ogni nuova istanza server. Nella "
+":doc:`documentazione del config.ini <config>` può essere trovata una "
+"descrizione di tutti i relativi campi."
 
-#: ../../source/bootstrap.rst:34 117ae0b4191c4ea9ae9b666328c34eef
+#: ../../source/bootstrap.rst:34 903f64d4a558460e9efe2b340a3f7f25
 msgid "Do not delete empty sections' titles from this file!"
 msgstr "Non cancellare i titoli di sezioni vuote da questo file!"

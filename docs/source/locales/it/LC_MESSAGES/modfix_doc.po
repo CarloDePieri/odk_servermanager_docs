@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-22 10:23+0200\n"
+"POT-Creation-Date: 2020-05-22 11:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,9 @@ msgstr "ModFix implementati"
 msgid ""
 "Here detailed descriptions of the ModFixes shipped with the current build"
 " can be found."
-msgstr "Qui è possibile trovare una descrizione dettagliata dei ModFix disponibili con la build attuale."
+msgstr ""
+"Qui è possibile trovare una descrizione dettagliata dei ModFix "
+"disponibili con la build attuale."
 
 #: ../../source/modfix_doc.rst:6 ../../source/modfix_doc.rst:8
 #: 3d455bdafd2744bea08f77682013e8d3 88be72d2d70249f596e1ce32722f19c5
@@ -33,13 +35,13 @@ msgstr ""
 
 #: ../../source/modfix_doc.rst 704f0d11712e4392836b5c8555d72d57
 #: 735e51009609425b9c0a6fcb7cbc2627 fc0062652f7545449516d056750c9fae
-msgid "name"
-msgstr "nome"
+msgid "Name"
+msgstr "Nome"
 
 #: ../../source/modfix_doc.rst 1f0af6c76e974f7985eca631e06a24db
 #: 8c0b576b467c48ff8ab6fda86cd3ca88
-msgid "supported mod"
-msgstr "mod supportati"
+msgid "Supported mod"
+msgstr "Mod supportati"
 
 #: ../../source/modfix_doc.rst:9 eae568f4ace14f1791bd1214e53d8a40
 msgid "`CBA: Community Based Addons for Arma 3`_"
@@ -51,10 +53,11 @@ msgid ""
 " server instance. The ``CBA_A3`` mod is normally symlinked, then the "
 "custom ``cba_settings.sqf`` is symlinked (or copied) to the "
 "``userconfig`` folder inside the Arma 3 installation folder."
-msgstr "Questo ModFix rende disponibile un *cba_settings* nell'istanza server. "
-"Il mod ``CBA_A3`` viene symlinkato normalmente, dopodiché il file ``cba_settings.sqf`` viene "
-"symlinkato o copiato a sua volta dentro la cartella ``userconfig``, dentro "
-"l'installazione di Arma 3."
+msgstr ""
+"Questo ModFix rende disponibile un *cba_settings* nell'istanza server. Il"
+" mod ``CBA_A3`` viene symlinkato normalmente, dopodiché il file "
+"``cba_settings.sqf`` viene symlinkato o copiato a sua volta dentro la "
+"cartella ``userconfig``, dentro l'installazione di Arma 3."
 
 #: ../../source/modfix_doc.rst:19 eda93470bbc1450685958a5c837312d1
 msgid "The absolute path of the custom ``cba_settings.sqf`` file."
@@ -62,8 +65,8 @@ msgstr "Il percorso assoluto del file ``cba_settings.sqf`` personalizzato."
 
 #: ../../source/modfix_doc.rst 82919cad52824514bad4a90130ffbbbc
 #: 94fa3f42c5ec454a87274b957d738d15 bac96124e54b4e8cbd483c16cd3f626e
-msgid "required"
-msgstr "richiesto"
+msgid "Required"
+msgstr "Richiesto"
 
 #: ../../source/modfix_doc.rst:21 ../../source/modfix_doc.rst:66
 #: 0523a22ac2834d5789b9837f72718142 8e80bd9349cb412c8e77c4c718ebca9a
@@ -72,19 +75,20 @@ msgstr "sì"
 
 #: ../../source/modfix_doc.rst 1814880e6a394704a8d1bd96eb6819e2
 #: 2bffe966f4a14681bcd5b600bcc3965f 2c5d334ea2264712b8e2b70c9ab44fc0
-msgid "type"
-msgstr "tipo"
+msgid "Type"
+msgstr "Tipo"
 
 #: ../../source/modfix_doc.rst:22 ../../source/modfix_doc.rst:67
 #: 44174e536e6f42c8a0ebc6eac3847dc9 796fcd64b16048299954c0774155ad8d
 msgid "string"
-msgstr ""
+msgstr "stringa"
 
 #: ../../source/modfix_doc.rst:26 17e5bec96d3148f98bf1b438adba472c
 msgid ""
 "If True the cba gets copied instead of symlinked, and won't be changed by"
 " instance updates."
-msgstr "Se True, il cba viene copiato invece di symlinkato, e non verrà cambiato "
+msgstr ""
+"Se True, il cba viene copiato invece di symlinkato, e non verrà cambiato "
 "da aggiornamenti dell'istanza server."
 
 #: ../../source/modfix_doc.rst:28 2cdd176e9785453c810fdd99ab044239
@@ -93,10 +97,10 @@ msgstr ""
 
 #: ../../source/modfix_doc.rst:29 bab444a9813f4419a19478a03856e017
 msgid "string (**bool**)"
-msgstr ""
+msgstr "stringa (**booleano**)"
 
 #: ../../source/modfix_doc.rst 72ded6d410444835839f8dd295cb7d6a
-msgid "default"
+msgid "Default"
 msgstr ""
 
 #: ../../source/modfix_doc.rst:30 b3e586de6e53465ea4fd74b31865358b
@@ -109,8 +113,8 @@ msgid "gos"
 msgstr ""
 
 #: ../../source/modfix_doc.rst 688fed889a78405992a9caf899d30770
-msgid "supported mods"
-msgstr "mod supportati"
+msgid "Supported mods"
+msgstr "Mod supportati"
 
 #: ../../source/modfix_doc.rst:38 e95069bbe41d442cb1d9721839f0b2d7
 msgid ""
@@ -126,10 +130,12 @@ msgid ""
 "folder, then every file and folder of the mod get symlinked there. All "
 "keys gets then linked inside a regular ``Keys`` folder, so that the tool "
 "can find them when it's time to link them."
-msgstr "Il ModFix gos si occupa di ovviare all'inusuale posizione delle chiavi "
-"di questi mod. Per ognuno di essi, viene creata una cartella in quella dei mod copiati, dove vengono poi symlinkati "
-"ogni file o cartella del mod. Le chiavi infine vengono linkate dentro una normale cartella ``Keys``, "
-"dove il tool sarà in grado di trovarle al momento del link delle chiavi."
+msgstr ""
+"Il ModFix gos si occupa di ovviare all'inusuale posizione delle chiavi di"
+" questi mod. Per ognuno di essi, viene creata una cartella in quella dei "
+"mod copiati, dove vengono poi symlinkati ogni file o cartella del mod. Le"
+" chiavi infine vengono linkate dentro una normale cartella ``Keys``, dove"
+" il tool sarà in grado di trovarle al momento del link delle chiavi."
 
 #: ../../source/modfix_doc.rst:55 ../../source/modfix_doc.rst:57
 #: 8a7f7e5a5f6a474eaf6b00e10c40bb47 ca003cf01e3046b1b566c4677796cd7a
@@ -144,8 +150,10 @@ msgstr ""
 msgid ""
 "This is used to replace in the instance the workshop mod with a local "
 "copy, which is useful during development."
-msgstr "Questo viene usato per rimpiazzare nell'istanza server il mod del workshop con una "
-"copia locale, il che torna utile durante lo sviluppo del mod."
+msgstr ""
+"Questo viene usato per rimpiazzare nell'istanza server il mod del "
+"workshop con una copia locale, il che torna utile durante lo sviluppo del"
+" mod."
 
 #: ../../source/modfix_doc.rst:64 579554a5bb1944958cd8adee023f6373
 msgid "The full path of the folder containing the local copy of the mod."
