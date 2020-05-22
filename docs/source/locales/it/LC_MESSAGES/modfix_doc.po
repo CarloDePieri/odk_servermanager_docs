@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-09 20:52+0200\n"
+"POT-Creation-Date: 2020-05-22 10:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,133 +16,137 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/modfix_doc.rst:2 b3adf11ac8da4ecbad57c211458df8fd
+#: ../../source/modfix_doc.rst:2 81fd58f7d61e45e393bc2a3366c397d2
 msgid "Available Modfix"
-msgstr ""
+msgstr "ModFix implementati"
 
-#: ../../source/modfix_doc.rst:3 e05e60ecd9234b38b5a4376dee3b17cb
+#: ../../source/modfix_doc.rst:3 b7cfb3587532476784b30201f9ff4281
 msgid ""
-"Here you can find a description of the ModFixes shipped with the current "
-"build."
-msgstr ""
+"Here detailed descriptions of the ModFixes shipped with the current build"
+" can be found."
+msgstr "Qui è possibile trovare una descrizione dettagliata dei ModFix disponibili con la build attuale."
 
 #: ../../source/modfix_doc.rst:6 ../../source/modfix_doc.rst:8
-#: 1db3fd45fe794a9f99aeecde4cd53f25 502efe5148f44d4e939c55c2da3e4ca4
+#: 3d455bdafd2744bea08f77682013e8d3 88be72d2d70249f596e1ce32722f19c5
 msgid "cba_a3"
 msgstr ""
 
-#: ../../source/modfix_doc.rst 1a7a47ec643c451e8342a8c50e3c5d4a
-#: 515f39d1b58f4a9d87ff2498970401c9 b90ed24c944a46c3ae2be001afcc5e74
+#: ../../source/modfix_doc.rst 704f0d11712e4392836b5c8555d72d57
+#: 735e51009609425b9c0a6fcb7cbc2627 fc0062652f7545449516d056750c9fae
 msgid "name"
-msgstr ""
+msgstr "nome"
 
-#: ../../source/modfix_doc.rst a7d3f5ee6313449facecc5ef8d2d82a4
-#: b9bfcca0b11c45b284306c3dd78d897b
+#: ../../source/modfix_doc.rst 1f0af6c76e974f7985eca631e06a24db
+#: 8c0b576b467c48ff8ab6fda86cd3ca88
 msgid "supported mod"
-msgstr ""
+msgstr "mod supportati"
 
-#: ../../source/modfix_doc.rst:9 585ac1b7a2e7408397822a915072288c
+#: ../../source/modfix_doc.rst:9 eae568f4ace14f1791bd1214e53d8a40
 msgid "`CBA: Community Based Addons for Arma 3`_"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:11 3bf8f8c201f74874bc507c57b3e6f3ae
+#: ../../source/modfix_doc.rst:11 d9e5851199c14accac7af9903ffa655d
 msgid ""
 "This ModFix takes care of making available a custom *cba_settings* to the"
-" server instance. The CBA mod is normally symlinked and after that the "
-"custom *cba_settings* is symlinked (or copied) to the ``userconfig`` "
-"folder inside the Arma 3 installation folder."
-msgstr ""
+" server instance. The ``CBA_A3`` mod is normally symlinked, then the "
+"custom ``cba_settings.sqf`` is symlinked (or copied) to the "
+"``userconfig`` folder inside the Arma 3 installation folder."
+msgstr "Questo ModFix rende disponibile un *cba_settings* nell'istanza server. "
+"Il mod ``CBA_A3`` viene symlinkato normalmente, dopodiché il file ``cba_settings.sqf`` viene "
+"symlinkato o copiato a sua volta dentro la cartella ``userconfig``, dentro "
+"l'installazione di Arma 3."
 
-#: ../../source/modfix_doc.rst:19 366529a2a2f144048685d328f1c42484
+#: ../../source/modfix_doc.rst:19 eda93470bbc1450685958a5c837312d1
 msgid "The absolute path of the custom ``cba_settings.sqf`` file."
-msgstr ""
+msgstr "Il percorso assoluto del file ``cba_settings.sqf`` personalizzato."
 
-#: ../../source/modfix_doc.rst 7cb4e96758224cc4b9f69d738c19e3bf
-#: b4dcf526fcbf4d7ba03033054be08e30 fad4dd885f20438da625e82dfc170455
+#: ../../source/modfix_doc.rst 82919cad52824514bad4a90130ffbbbc
+#: 94fa3f42c5ec454a87274b957d738d15 bac96124e54b4e8cbd483c16cd3f626e
 msgid "required"
-msgstr ""
+msgstr "richiesto"
 
 #: ../../source/modfix_doc.rst:21 ../../source/modfix_doc.rst:66
-#: ba8dcfc51efa4d91baf65136fc8d8411 d98c879466e142bca5b25869d37f141c
+#: 0523a22ac2834d5789b9837f72718142 8e80bd9349cb412c8e77c4c718ebca9a
 msgid "yes"
-msgstr ""
+msgstr "sì"
 
-#: ../../source/modfix_doc.rst 2746e2713dce47c8a81182b745d8ae80
-#: bb720846a53d44a790a1bbc6bc32f18e c4edada04d054a0ea01c9665a74e5e4b
+#: ../../source/modfix_doc.rst 1814880e6a394704a8d1bd96eb6819e2
+#: 2bffe966f4a14681bcd5b600bcc3965f 2c5d334ea2264712b8e2b70c9ab44fc0
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: ../../source/modfix_doc.rst:22 ../../source/modfix_doc.rst:67
-#: 0ffd41824a9c488bb124978f096180c5 40a84fc2e24d400a97e540893684619b
+#: 44174e536e6f42c8a0ebc6eac3847dc9 796fcd64b16048299954c0774155ad8d
 msgid "string"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:26 24345339bb5b4ffa8272cd8047928ad3
+#: ../../source/modfix_doc.rst:26 17e5bec96d3148f98bf1b438adba472c
 msgid ""
 "If True the cba gets copied instead of symlinked, and won't be changed by"
 " instance updates."
-msgstr ""
+msgstr "Se True, il cba viene copiato invece di symlinkato, e non verrà cambiato "
+"da aggiornamenti dell'istanza server."
 
-#: ../../source/modfix_doc.rst:28 d007048155c34c98a84d7a9a7e78cd11
+#: ../../source/modfix_doc.rst:28 2cdd176e9785453c810fdd99ab044239
 msgid "no"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:29 bf82268b989e4c20ab664c9629510746
+#: ../../source/modfix_doc.rst:29 bab444a9813f4419a19478a03856e017
 msgid "string (**bool**)"
 msgstr ""
 
-#: ../../source/modfix_doc.rst 217605c158ae4fb4b5faaf024747fdf1
+#: ../../source/modfix_doc.rst 72ded6d410444835839f8dd295cb7d6a
 msgid "default"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:30 be91f332fb494d438236e587d32381b4
+#: ../../source/modfix_doc.rst:30 b3e586de6e53465ea4fd74b31865358b
 msgid "``\"False\"``"
 msgstr ""
 
 #: ../../source/modfix_doc.rst:35 ../../source/modfix_doc.rst:37
-#: 2feef3e1a681425c87a1846ed8a5e903 39b9dff480a546bfb2087011a58e28ae
+#: 2c7c52e2e65e48b0a713e721cdd84abc 7cf9a0c8d8c74d91b5f95834e3f0716f
 msgid "gos"
 msgstr ""
 
-#: ../../source/modfix_doc.rst 821d92e2c92c4e75a535370775416969
+#: ../../source/modfix_doc.rst 688fed889a78405992a9caf899d30770
 msgid "supported mods"
-msgstr ""
+msgstr "mod supportati"
 
-#: ../../source/modfix_doc.rst:38 b7e4681ac9904cad979a14615c9ab639
+#: ../../source/modfix_doc.rst:38 e95069bbe41d442cb1d9721839f0b2d7
 msgid ""
 "`G.O.S Al Rayak`_, `G.O.S Dariyah`_, `G.O.S Gunkizli`_, `G.O.S Kalu "
 "Khan`_, `G.O.S Leskovets`_, `G.O.S N'ziwasogo`_, `G.O.S Song Bin Tahn`_, "
 "`G.O.S Song Bin Tanh 2.0 (APEX)`_"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:41 1518504c941a4c64a2146af7142797fc
+#: ../../source/modfix_doc.rst:41 b7997dafb6734ceea1bb5fe2ac34f0b7
 msgid ""
-"The gos ModFix is used as a compatibility layer between ODKSM and the "
-"unusual keys position of these mods. For each of them, a folder is "
-"created inside the copied mod folder, then every file and folder of the "
-"mod get symlinked. All keys gets linked inside a regular ``Keys`` folder,"
-" so that the tool can find them when linking them."
-msgstr ""
+"The gos ModFix is used as a workaround for the unusual keys position of "
+"these mods. For each of them, a folder is created inside the copied mod "
+"folder, then every file and folder of the mod get symlinked there. All "
+"keys gets then linked inside a regular ``Keys`` folder, so that the tool "
+"can find them when it's time to link them."
+msgstr "Il ModFix gos si occupa di ovviare all'inusuale posizione delle chiavi "
+"di questi mod. Per ognuno di essi, viene creata una cartella in quella dei mod copiati, dove vengono poi symlinkati "
+"ogni file o cartella del mod. Le chiavi infine vengono linkate dentro una normale cartella ``Keys``, "
+"dove il tool sarà in grado di trovarle al momento del link delle chiavi."
 
 #: ../../source/modfix_doc.rst:55 ../../source/modfix_doc.rst:57
-#: 6a015486fbb94fd79a69f133eaa69f38 e98c2097db7c4840ab254d5150aac69e
+#: 8a7f7e5a5f6a474eaf6b00e10c40bb47 ca003cf01e3046b1b566c4677796cd7a
 msgid "odkai_local"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:58 1c7d52927f564115b4cb128fe96cc6af
+#: ../../source/modfix_doc.rst:58 008a0ae83d3245f4bc47a326327a5d29
 msgid "ODKAI_"
 msgstr ""
 
-#: ../../source/modfix_doc.rst:60 aa0d84a8043142a0a62d681841227668
+#: ../../source/modfix_doc.rst:60 89431cabef1042349e605cacf84d9045
 msgid ""
-"This is used to replace the workshop mod with a local copy, which is "
-"useful during development."
-msgstr ""
+"This is used to replace in the instance the workshop mod with a local "
+"copy, which is useful during development."
+msgstr "Questo viene usato per rimpiazzare nell'istanza server il mod del workshop con una "
+"copia locale, il che torna utile durante lo sviluppo del mod."
 
-#: ../../source/modfix_doc.rst:64 a1e8fefe65134b50877ede0edc2933cf
+#: ../../source/modfix_doc.rst:64 579554a5bb1944958cd8adee023f6373
 msgid "The full path of the folder containing the local copy of the mod."
-msgstr ""
-
-#~ msgid "todo"
-#~ msgstr ""
-
+msgstr "Il percorso completo della cartella che contiene la copia locale del mod."
