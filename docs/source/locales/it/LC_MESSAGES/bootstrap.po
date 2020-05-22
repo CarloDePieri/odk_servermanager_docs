@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the odksm_docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
@@ -25,36 +24,37 @@ msgstr ""
 msgid ""
 "In here fields present in the ``bootstrap.ini`` configuration file are "
 "described."
-msgstr ""
+msgstr "Qui sono descritti i campi presenti nel file di configurazione ``bootstrap.ini``."
 
 #: ../../source/bootstrap.rst:7 8fb81820660b4137a9450631ca79643e
 msgid "bootstrap section"
-msgstr ""
+msgstr "Sezione bootstrap"
 
 #: ../../source/bootstrap.rst:8 be0d8a92911047dd852e0980114ab4ef
 msgid "This section contains settings used by the quick start tool."
-msgstr ""
+msgstr "Questa sezione contiene impostazioni usate dal tool di Quick Start."
 
 #: ../../source/bootstrap.rst:14 36186f1a89d04901bad35d9ff10381ea
 msgid ""
 "The absolute path to the folder in which the tool will create the new "
 "instance root folder."
-msgstr ""
+msgstr "Il percorso assoluto della cartella dove il tool creerà le cartelle "
+"delle nuove istanze server."
 
 #: ../../source/bootstrap.rst 35d650362e1b4d45aeef6629c53bcdaf
 #: fa8da8b24af64bcfb7de81b0fe8773a2
 msgid "required"
-msgstr ""
+msgstr "richiesto"
 
 #: ../../source/bootstrap.rst:16 ../../source/bootstrap.rst:24
 #: 97320be454bf4247861b3d45c23ba735 c90a5429908c4f80a9732c8c3c367c0d
 msgid "yes"
-msgstr ""
+msgstr "sì"
 
 #: ../../source/bootstrap.rst 79f2aaf3034e4043b729f7c8a5e1c690
 #: cdf311d05541456fbca45dc03032c48d
 msgid "type"
-msgstr ""
+msgstr "tipo"
 
 #: ../../source/bootstrap.rst:17 ../../source/bootstrap.rst:25
 #: 0684bd9ed23b465ea33dd110fc754f34 4ecd4a1ebc4b4b62a5c89f41b47f509c
@@ -73,52 +73,21 @@ msgstr ""
 
 #: ../../source/bootstrap.rst:22 c65d0b15ea014f89b44b4f627945bbbf
 msgid "The absolute path to the folder containing the odksm ``run.py``."
-msgstr ""
+msgstr "Il percorso assoluto della cartella che contiene il file di ODKSM ``run.py``."
 
 #: ../../source/bootstrap.rst:29 665abfc786244863a36ca259a12805d8
 msgid "config, bat, ODKSM, mod_fix_settings sections"
-msgstr ""
+msgstr "Sezioni config, bat, ODKSM, mod_fix_settings"
 
 #: ../../source/bootstrap.rst:31 daba60601d70461ebe18b1615b0266df
 msgid ""
 "All values in these section will be the default one present in the "
 "``config.ini`` of a new instance. They are described in :doc:`the "
 "config.ini documentation<config>`."
-msgstr ""
+msgstr "Tutti i valori in queste sezioni saranno quelli presenti di default nei file "
+"``config.ini`` in ogni nuova istanza server. Nella :doc:`documentazione del config.ini <config>` "
+"può essere trovata una descrizione di tutti i relativi campi."
 
 #: ../../source/bootstrap.rst:34 117ae0b4191c4ea9ae9b666328c34eef
 msgid "Do not delete empty sections' titles from this file!"
-msgstr ""
-
-#~ msgid "In here fields present in the ``bootstrap.ini`` are described."
-#~ msgstr ""
-
-#~ msgid "bootstrap"
-#~ msgstr ""
-
-#~ msgid "instances_root"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "the absolute path to the folder in"
-#~ " which the tool will create the "
-#~ "new instance root folder"
-#~ msgstr ""
-
-#~ msgid "odksm_folder_path"
-#~ msgstr ""
-
-#~ msgid "the absolute path to the folder containing the odksm run.py"
-#~ msgstr ""
-
-#~ msgid "config, bat, ODKSM, mod_fix_settings"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "All values in these section will "
-#~ "be the default one present in the"
-#~ " ``config.ini`` of a new instance. "
-#~ "They are described in :doc:`the "
-#~ "config.ini documentation<config>`"
-#~ msgstr ""
-
+msgstr "Non cancellare i titoli di sezioni vuote da questo file!"
