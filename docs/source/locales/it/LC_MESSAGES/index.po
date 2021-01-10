@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-10 09:45+0200\n"
+"POT-Creation-Date: 2021-01-10 12:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: ../../source/index.rst:3 2b7acaf5b4c44ee9a2292e297354fdd4
+#: ../../source/index.rst:3 95383892b53a4f0b80640e5ff02bb445
 msgid "Basic Usage"
 msgstr "Utilizzo Base"
 
-#: ../../source/index.rst:10 2c6d7cfe771f4f909358e6857f3bb505
+#: ../../source/index.rst:10 204359b4234646c4b4666d24065290ff
 msgid "Advanced Usage"
 msgstr "Utilizzo Avanzato"
 
-#: ../../source/index.rst:19 3b5acb4c445e424ebb37bca0e8015dc5
+#: ../../source/index.rst:19 5cd9b037c2044d49825470a84195783f
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: ../../../README.rst:3 aa1bf218e43c4a2fbd25df00ce92fe73
+#: ../../../README.rst:3 c5cf66c8caf041ef8b79c7427a3cd629
 msgid "ODK Server Manager tool"
 msgstr ""
 
-#: ../../../README.rst:24 731c4a78954f4be8afe934519ee9b564
+#: ../../../README.rst:24 86e136b6475945bc840e0592adf76589
 msgid "Welcome!"
 msgstr "Benvenuti!"
 
-#: ../../../README.rst:31 5972ceafa7084e6aa79236e97e2061c8
+#: ../../../README.rst:31 c6298623b65e41c18ef44a908e7efc16
+msgid ""
+"This is the documentation for ODKSM, hosted on ReadTheDocs both in "
+"`english`_ and in `italian`_."
+msgstr "Questa è la documentazione per ODKSM, hostata su ReadTheDocs sia in "
+"`inglese`_ che in `italiano`_."
+
+#: ../../../README.rst:33 3c5f61cacda34ed3bacec781e80c4329
 msgid ""
 "ODKSM_ is an open source python tool to quickly and easily create more "
 "than one Arma 3 server instance and manage their settings, mods and keys."
@@ -50,7 +57,7 @@ msgstr ""
 "intelligentemente symlink, il che mantiene le cartelle delle istanze "
 "piccole, facilmente aggiornabili e archiviabili."
 
-#: ../../../README.rst:35 6dd9bb67e425454e82600c20e973ac43
+#: ../../../README.rst:37 3a85cea3201246599b53af7675af07cd
 msgid ""
 "It mainly caters to dedicated server maintainers, but could surely come "
 "in handy for mission makers."
@@ -58,11 +65,11 @@ msgstr ""
 "Il tool è pensato principalmente per chi gestisce server dedicati, ma "
 "potrebbe tornare utile anche a chi sviluppa missioni."
 
-#: ../../../README.rst:37 f49615b807af46cdbe2b44577ef01afa
+#: ../../../README.rst:39 277fc39725c0411ca27c600e89824d13
 msgid "Main features:"
 msgstr "Caratteristiche principali:"
 
-#: ../../../README.rst:39 9cc24d81be754f439c4c7f7b33eca397
+#: ../../../README.rst:41 71ecbd60a0a04733b9fa8d5b4b1930bc
 msgid ""
 "Having separated server instances and mixing symlink with real "
 "configuration file result in a clean and organized Arma 3 main folder"
@@ -71,7 +78,7 @@ msgstr ""
 "configurazione reali permette di mantenere la cartella principale di Arma"
 " pulita e organizzata"
 
-#: ../../../README.rst:40 558fa2b20d69495eaca1a854d12bb475
+#: ../../../README.rst:42 f3f5fce113e64b5d8ef65cfe154de0db
 msgid ""
 "**ONE** easy to understand and thoroughly documented configuration file "
 "to manage the whole instance"
@@ -79,7 +86,7 @@ msgstr ""
 "**Un singolo** file di configurazione facile da interpretare e "
 "documentato a fondo permette di gestire l'intera istanza"
 
-#: ../../../README.rst:41 2f550063d99b4e72b5cc42bb0eefcd44
+#: ../../../README.rst:43 2f80b6beafe64ccbb84f615129cf6cfa
 msgid ""
 "Flexible .bat scripts to call the tool that can easily adapt to different"
 " folders structures"
@@ -87,22 +94,21 @@ msgstr ""
 "Gli script .bat che richiamano il tool sono flessibili e possono "
 "adattarsi facilmente a diverse strutture di cartelle"
 
-#: ../../../README.rst:42 58235202406d4e919b7f50e268af4a31
+#: ../../../README.rst:44 c3a5b797806c45b5804e0e2f88ca581e
 msgid ""
 "Simply running the tool is enough to keep mods, keys and Arma "
 "configuration files updated"
 msgstr ""
-"Lanciare il tool è sufficiente per "
-"mantenere aggiornati mods, chiavi e file"
-" di configurazione"
+"Lanciare il tool è sufficiente per mantenere aggiornati mods, chiavi e "
+"file di configurazione"
 
-#: ../../../README.rst:43 7cdab2f24c8a4c1aa1a694e61473ba61
+#: ../../../README.rst:45 69e0b33d655b42a1ae45cc043a6f8bbe
 msgid "Quickstart tool to automate initial creation of multiple instances"
 msgstr ""
 "Un Quickstart tool permette di automatizzare le fasi iniziali di "
 "creazione di multiple istanze"
 
-#: ../../../README.rst:44 0156d7266fd24b6c92f4b00953c1e0e2
+#: ../../../README.rst:46 ad0477d933d047c69975448c35d52b11
 msgid ""
 "Modular architecture that allows to quickly implement mod specific "
 "behaviour"
@@ -110,6 +116,19 @@ msgstr ""
 "Una architettura modulare permette di implementare velocemente "
 "comportamenti specifici per singoli mod"
 
-#: ../../../README.rst:45 3dbd18e4074242b29a03c4f67e9d4ea1
+#: ../../../README.rst:47 caf6a62e13e74827837c1d5c9b8efbed
 msgid "Configuration file templates support"
 msgstr "Supporto per template di file di configurazione"
+
+#~ msgid ""
+#~ "This is the documentation repo for "
+#~ "ODKSM, hosted on ReadTheDocs both in "
+#~ "english_ and in italian_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is the documentation for ODKSM, "
+#~ "hosted on ReadTheDocs both in english_"
+#~ " and in italian_."
+#~ msgstr ""
+

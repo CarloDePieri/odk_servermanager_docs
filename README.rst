@@ -2,9 +2,6 @@
 ODK Server Manager tool
 ***********************
 
-.. image:: https://img.shields.io/github/v/release/CarloDePieri/odk_servermanager
-    :target: https://github.com/CarloDePieri/odk_servermanager/releases/latest
-    :alt: Latest Release
 .. image:: https://travis-ci.com/CarloDePieri/odk_servermanager.svg?branch=master
     :target: https://travis-ci.com/CarloDePieri/odk_servermanager
     :alt: Travis build
@@ -17,16 +14,21 @@ ODK Server Manager tool
 .. image:: https://img.shields.io/badge/os-Windows-blue
     :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Supported os: Windows
-.. image:: https://img.shields.io/maintenance/yes/2020
+.. image:: https://img.shields.io/maintenance/yes/2021
     :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Maintained!
+.. image:: https://img.shields.io/github/v/release/CarloDePieri/odk_servermanager
+    :target: https://github.com/CarloDePieri/odk_servermanager/releases/latest
+    :alt: Latest Release
 
 Welcome!
 
-.. image:: https://www.odkclan.it/immagini/loghi/logo_home.png
+.. image:: https://www.odkclan.it/img/ODK-logo.jpg
     :height: 100 px
     :alt: ODK Clan website
     :target: https://www.odkclan.it/
+
+This is the documentation for ODKSM, hosted on ReadTheDocs both in `english`_ and in `italian`_.
 
 ODKSM_ is an open source python tool to quickly and easily create more than one Arma 3 server instance and manage their
 settings, mods and keys. It does so by intelligently using symlinks, which keeps server instances' folders small, easy
@@ -45,3 +47,5 @@ Main features:
 * Configuration file templates support
 
 .. _ODKSM: https://github.com/CarloDePieri/odk_servermanager
+.. _english: https://odksm.readthedocs.io/en/latest/
+.. _italian: https://odksm.readthedocs.io/it/latest/
