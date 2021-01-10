@@ -1,3 +1,6 @@
 /docs/build/
+/docs/source/_build/
 /docs/source/locales/it_IT/LC_MESSAGES/*.mo
 /.venv/
+.idea
+.vscode
