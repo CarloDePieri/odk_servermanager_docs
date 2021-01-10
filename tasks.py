@@ -62,6 +62,9 @@ def build(c):
 def serve(c):
     from livereload import Server
     server = Server()
+    # Build the docs for the first time
+    build_html(c)
+    print("\n>> Docs built! Serving and watching for changes...\n")
     # Watch for changes in rst files; rebuild the html documentation when it happens
     server.watch('docs/source/*.rst', lambda: build_html(c))
     # Serve the builded docs. This will autoreload on change!
@@ -90,3 +93,9 @@ def serve_it(c):
     server.watch('docs\source\locales\it\LC_MESSAGES\*.po', lambda: build_it_html(c))
     # Serve the builded docs. This will autoreload on change!
     server.serve(root='docs/build/html/it', port=5501)
+
+
+@task()
+def test(c):
+    print("\n>> Testing the whole pipeline...\n")
+    c.run("{} pytest -s tests".format(PIPENV))

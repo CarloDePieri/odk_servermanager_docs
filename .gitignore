@@ -4,3 +4,7 @@
 /.venv/
 .idea
 .vscode
+/tests/source/
+/tests/build/
+**/__pycache__/
+.pytest_cache
