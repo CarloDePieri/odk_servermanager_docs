@@ -203,8 +203,11 @@ This section contains various settings required by the tool.
 mod_fix_settings section
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are settings required by specific :doc:`ModFix modules <modfix>`. Do note that if a module is enabled the relative settings MAY be
-required. More specific information about single modfix can be found in the :doc:`modfix documentation <modfix_doc>`.
+These are settings required by specific :doc:`ModFix modules <modfix>`. 
+
+.. note:: To enable a modfix, remember that it's still a requirement to include that mod's name inside :option:`user_mods_list <ODKSM user_mods_list>`!
+
+.. note:: If a modfix is enabled, some relative settings MAY be required. Specific information about currently implemented modfix can be found in the :doc:`modfix documentation <modfix_doc>`.
 
 .. program:: mod_fix_settings
 
