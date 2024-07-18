@@ -8,43 +8,72 @@ msgid ""
 msgstr ""
 "Project-Id-Version: odksm_docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-10 12:12+0100\n"
+"POT-Creation-Date: 2024-07-18 12:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.15.0\n"
 
-#: ../../source/index.rst:3 95383892b53a4f0b80640e5ff02bb445
+#: ../../source/index.rst:3
 msgid "Basic Usage"
 msgstr "Utilizzo Base"
 
-#: ../../source/index.rst:10 204359b4234646c4b4666d24065290ff
+#: ../../source/index.rst:10
 msgid "Advanced Usage"
 msgstr "Utilizzo Avanzato"
 
-#: ../../source/index.rst:19 5cd9b037c2044d49825470a84195783f
+#: ../../source/index.rst:19
 msgid "Documentation"
 msgstr "Documentazione"
 
-#: ../../../README.rst:3 c5cf66c8caf041ef8b79c7427a3cd629
+#: ../../../README.rst:3 8ce3a65aacb6448d866e862caee58817
 msgid "ODK Server Manager tool"
 msgstr ""
 
-#: ../../../README.rst:24 86e136b6475945bc840e0592adf76589
+#: ../../../README.rst:-1 8a647762e1d34b09a135c0ff15704155
+msgid "Travis build"
+msgstr ""
+
+#: ../../../README.rst:-1 994170860de84d0a86be8bbef2f4ece3
+msgid "Coverage status"
+msgstr ""
+
+#: ../../../README.rst:-1 5f8eb05532a6451abc55332bb1cd03a0
+msgid "License"
+msgstr ""
+
+#: ../../../README.rst:-1 7a31d366966c4bb0be96c2dc78c84dd0
+msgid "Supported os: Windows"
+msgstr ""
+
+#: ../../../README.rst:-1 0f7a399dd8e8423e965e77117f17e2a6
+msgid "Maintained!"
+msgstr ""
+
+#: ../../../README.rst:-1 8db5c370c36945d0bab65ffa26aa8825
+msgid "Latest Release"
+msgstr ""
+
+#: ../../../README.rst:24 2093fd09567a42a88cca0fd255115cd9
 msgid "Welcome!"
 msgstr "Benvenuti!"
 
-#: ../../../README.rst:31 c6298623b65e41c18ef44a908e7efc16
+#: ../../../README.rst:-1 5e554244b6904ea8a3487f5bac7ba7b1
+msgid "ODK Clan website"
+msgstr ""
+
+#: ../../../README.rst:31 5816725d2b9d4a53b7a676dea3f58e5b
 msgid ""
 "This is the documentation for ODKSM, hosted on ReadTheDocs both in "
 "`english`_ and in `italian`_."
-msgstr "Questa è la documentazione per ODKSM, hostata su ReadTheDocs sia in "
+msgstr ""
+"Questa è la documentazione per ODKSM, hostata su ReadTheDocs sia in "
 "`inglese`_ che in `italiano`_."
 
-#: ../../../README.rst:33 3c5f61cacda34ed3bacec781e80c4329
+#: ../../../README.rst:33 9785036705af4e109dd1a9f5d554fb7f
 msgid ""
 "ODKSM_ is an open source python tool to quickly and easily create more "
 "than one Arma 3 server instance and manage their settings, mods and keys."
@@ -57,7 +86,7 @@ msgstr ""
 "intelligentemente symlink, il che mantiene le cartelle delle istanze "
 "piccole, facilmente aggiornabili e archiviabili."
 
-#: ../../../README.rst:37 3a85cea3201246599b53af7675af07cd
+#: ../../../README.rst:37 ef33492702f743d8a7e50f5b839fb4a2
 msgid ""
 "It mainly caters to dedicated server maintainers, but could surely come "
 "in handy for mission makers."
@@ -65,11 +94,11 @@ msgstr ""
 "Il tool è pensato principalmente per chi gestisce server dedicati, ma "
 "potrebbe tornare utile anche a chi sviluppa missioni."
 
-#: ../../../README.rst:39 277fc39725c0411ca27c600e89824d13
+#: ../../../README.rst:39 fd57ea81a1bf48c79374c082f9879f66
 msgid "Main features:"
 msgstr "Caratteristiche principali:"
 
-#: ../../../README.rst:41 71ecbd60a0a04733b9fa8d5b4b1930bc
+#: ../../../README.rst:41 5acc71e2bb33467197e458417873c11e
 msgid ""
 "Having separated server instances and mixing symlink with real "
 "configuration file result in a clean and organized Arma 3 main folder"
@@ -78,7 +107,7 @@ msgstr ""
 "configurazione reali permette di mantenere la cartella principale di Arma"
 " pulita e organizzata"
 
-#: ../../../README.rst:42 f3f5fce113e64b5d8ef65cfe154de0db
+#: ../../../README.rst:42 95373722da124a0a874a629d4dd33776
 msgid ""
 "**ONE** easy to understand and thoroughly documented configuration file "
 "to manage the whole instance"
@@ -86,7 +115,7 @@ msgstr ""
 "**Un singolo** file di configurazione facile da interpretare e "
 "documentato a fondo permette di gestire l'intera istanza"
 
-#: ../../../README.rst:43 2f80b6beafe64ccbb84f615129cf6cfa
+#: ../../../README.rst:43 87d40311c1c14853806c914a40500eb2
 msgid ""
 "Flexible .bat scripts to call the tool that can easily adapt to different"
 " folders structures"
@@ -94,7 +123,7 @@ msgstr ""
 "Gli script .bat che richiamano il tool sono flessibili e possono "
 "adattarsi facilmente a diverse strutture di cartelle"
 
-#: ../../../README.rst:44 c3a5b797806c45b5804e0e2f88ca581e
+#: ../../../README.rst:44 ca8ac60a04ca4e21b9fa64c421b5ca71
 msgid ""
 "Simply running the tool is enough to keep mods, keys and Arma "
 "configuration files updated"
@@ -102,13 +131,13 @@ msgstr ""
 "Lanciare il tool è sufficiente per mantenere aggiornati mods, chiavi e "
 "file di configurazione"
 
-#: ../../../README.rst:45 69e0b33d655b42a1ae45cc043a6f8bbe
+#: ../../../README.rst:45 21fee14b151442f3be24395b66200853
 msgid "Quickstart tool to automate initial creation of multiple instances"
 msgstr ""
 "Un Quickstart tool permette di automatizzare le fasi iniziali di "
 "creazione di multiple istanze"
 
-#: ../../../README.rst:46 ad0477d933d047c69975448c35d52b11
+#: ../../../README.rst:46 efe081622b394be399a87a30e94addb9
 msgid ""
 "Modular architecture that allows to quickly implement mod specific "
 "behaviour"
@@ -116,7 +145,7 @@ msgstr ""
 "Una architettura modulare permette di implementare velocemente "
 "comportamenti specifici per singoli mod"
 
-#: ../../../README.rst:47 caf6a62e13e74827837c1d5c9b8efbed
+#: ../../../README.rst:47 b83350080dc74437b1d37d20c13ff689
 msgid "Configuration file templates support"
 msgstr "Supporto per template di file di configurazione"
 

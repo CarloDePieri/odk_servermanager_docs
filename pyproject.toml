@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "odksm-readthedocs"
+version = "1.0"
+description = "Readthedocs documentation for CarloDePieri/odk_servermanager."
+authors = ["Carlo De Pieri <depieri.carlo@gmail.com>"]
+license = "GPL3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sphinx = "^7.4.5"
+recommonmark = "^0.7.1"
+sphinx-rtd-theme = "^2.0.0"
+sphinx-intl = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+invoke = "^2.2.0"
+livereload = "^2.7.0"
+poetry-plugin-export = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
