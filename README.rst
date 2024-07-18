@@ -2,8 +2,8 @@
 ODK Server Manager tool
 ***********************
 
-.. image:: https://travis-ci.com/CarloDePieri/odk_servermanager.svg?branch=master
-    :target: https://travis-ci.com/CarloDePieri/odk_servermanager
+.. image:: https://github.com/CarloDePieri/odk_servermanager/actions/workflows/ci.yml/badge.svg
+    :target: https://github.com/CarloDePieri/odk_servermanager/actions/workflows/ci.yml
     :alt: Travis build
 .. image:: https://coveralls.io/repos/github/CarloDePieri/odk_servermanager/badge.svg?branch=master
     :target: https://coveralls.io/github/CarloDePieri/odk_servermanager?branch=master
@@ -14,7 +14,7 @@ ODK Server Manager tool
 .. image:: https://img.shields.io/badge/os-Windows-blue
     :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Supported os: Windows
-.. image:: https://img.shields.io/maintenance/yes/2021
+.. image:: https://img.shields.io/maintenance/yes/2024
     :target: https://github.com/CarloDePieri/odk_servermanager
     :alt: Maintained!
 .. image:: https://img.shields.io/github/v/release/CarloDePieri/odk_servermanager
